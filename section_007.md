@@ -20,13 +20,13 @@ OPENDEI hanteert vier belangrijke principes:<br/>
 <b>OPENDEI bouwstenen</b><br/>
 OPENDEI heeft een functioneel bouwstenen model voor data spaces ontwikkeld, dat veelvuldig wordt ingezet in verschillende initiatieven. In het onderstaande figuur 4.1 zijn de OPENDEI generieke bouwstenen opgenomen. Deze bouwstenen zijn ook in onderhavige studie als uitgangspunt genomen voor het bepalen van focusgebieden in verschillende data spaces initiatieven. De bouwstenen zijn uitvoerig toegelicht in paragraaf 2.4.
 
-<img src='media/image3.png' alt='' style='width: 100%;'></img>
+<img src='media/image3.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 4.1 - OPENDEI data space bouwstenen [[OPENDEI-DPR]]</i>
 
 <b>Actormodel</b><br/>
 De bouwstenen zullen uiteindelijk moeten worden geïmplementeerd en bestuurd worden door actoren. Daarvoor is ook een actormodel nodig (en een besturingsmodel). OPENDEI leunt wat betreft het actormodel voor het inrichten van de ‘zachte infrastructuur’ op het actormodel van IDS. OPENDEI heeft dit actormodel vereenvoudigd (zie figuur 4.2) . 
 
-<img src='media/image13.png' alt='' style='width: 100%;'></img>
+<img src='media/image13.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 4.2 – OPENDEI actormodel [[OPENDEI-DPR]]</i>
 
 OPENDEI onderscheidt vier groepen belanghebbenden in data spaces: de eigenaar van de data (‘data owner’), de dataprovider, de dataverwerker (’data processing entity’) en de marktplaats operator. Figuur 4.2 illustreert de relaties en interacties tussen deze belanghebbenden en de datastroom die tussen hen plaatsvindt.
@@ -42,7 +42,7 @@ Een <b>marktplaats</b> exploitant is een entiteit, die verschillende soorten inf
 <b>Governancemodel</b><br/>
 OPENDEI heeft een aanzet gegeven voor een globaal governance model, dat gebaseerd is de <a href='https://digital-strategy.ec.europa.eu/en/policies/data-governance-act' target='_blank'>EU Data Governance Act</a>. Met deze Act stelt de EU een Data Innovation Board (DIB) in, die adviseert over de werkwijzen in het kader van deze wet, de standaarden, en interoperabiliteit (zie verder Handreiking EU informatie). Voor Europese data spaces wordt aanbevolen om voor elke data space een (domein)autoriteit voor de governance aan te wijzen en een centrale autoriteit te hebben, die toezicht houdt op alle aspecten van de data space in verband met de interoperabiliteit van data space, d.w.z. de de facto 'zachte infrastructuur'. Deze centrale autoriteit zal communiceren met alle specifieke autoriteiten voor de afzonderlijke data spaces. Voor deze governancestructuur van de zachte infrastructuur moeten overheden op drie niveaus (strategisch, tactisch en operationeel niveau) in nauwe samenhang met elkaar opereren. De EU DGA specificeert de European Data Innovation Board (DIP) als de autoriteit op strategisch niveau. OPENDEI heeft in hoofdstuk 4 van het position paper voorgesteld om eveneens een autoriteit op tactisch en operationeel niveau aan te stellen, de 'Data Exchange Board' (DEB). In de onderstaande figuur 4.3 is deze governancestructuur weergegeven.
 
-<img src='media/image14.png' alt='' style='width: 100%;'></img>
+<img src='media/image14.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 4.3 OPENDEI Governance structuur voor de zachte infrastructuur [[OPENDEI-DPR]]</i>
 
 OPENDEI onderschrijft dit en doet de suggestie om naast de DIB een Data Exchange Board (DEB) in te richten. De DEB zal volgens OPENDEI twee hoofdactiviteiten kennen: 1. het verzorgen van het autorisatiekader en 2. het behandelen van alles met betrekking tot Europese data spaces die live en geadopteerd worden (d.w.z. implementatie, ondersteuning, communicatie). De DEB zelf zal een tweeledige structuur hebben. Een centrale rol zal worden gegeven aan de 'Raad van Deelnemers’. Deze raad zou kunnen bestaan uit vertegenwoordigers van gecertificeerde en aanblijvende partijen. De deelnemersraad krijgt het recht om de leden van de Raad van Commissarissen (samen met de DIB) te benoemen. De DEB krijgt eigen personeel. Een deel van dit personeel moet bestaan uit vertegenwoordigers van de bestuursorganisaties van de afzonderlijke data spaces. De organisatie verantwoordelijke voor de governance van elke data space zal een deel van de vertegenwoordigers aanwijzen om de DEB te bemensen. Bovendien kunnen de deelnemers van elke data space vertegenwoordigers sturen naar de Raad van Toezicht, de Raad van Deelnemers en de Change Advisory Board. De organisatiestructuur van de governance-entiteiten van de afzonderlijke data spaces moet vergelijkbaar zijn met deze algemene governancestructuur. OPENDEI adviseert daarmee ook om een strategisch, een tactisch en een operationeel niveau te definiëren voor het bestuur van de afzonderlijke data spaces, waarbij elk niveau wordt gecontroleerd door organisatorische organen die bestaan uit vertegenwoordigers van deelnemende organisaties.
@@ -62,6 +62,6 @@ OPENDEI heeft als EU project zich gericht zich op de ondersteuning van data spac
 
 Vandaar dat deze elementen als focusgebieden in de onderstaande figuur 4.4) zijn uitgelicht. 
 
-<img src='media/image15.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image15.jpg' alt='Afbeelding 7' style='width: 100%;'></img>
 <i>Figuur 4.4 – Focusgebieden van OPENDEI</i>
 

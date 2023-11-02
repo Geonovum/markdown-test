@@ -22,7 +22,7 @@ INSPIRE kent een aantal uitgangspunten en principes:<br/>
 <b>De INSPIRE functies</b><br/>
 Voor gebruikers heeft INSPIRE een vrij overzichtelijke opzet (zie figuur 7.1) en is INSPIRE functioneel simpel gehouden met 3 functies: zoeken - bekijken – downloaden en aanroepen. Dit staat ook wel bekend als het publish-find-bind principe van service oriented architectuur. De gebruiker kan de milieudata zoeken via de zoekdienst (discovery service), zoals het nationaal georegister, het EU portaal of een eigen applicatie. De gebruiker evalueert de geschiktheid van de milieudata op basis van de eigenschappen van de dataset (metadata) en/of door het bekijken van de dataset in kaartvorm (view service). Indien de gebruiker de data geschikt acht voor haar gebruiksdoel, wordt de data gedownload voor gebruik (download service), of aangeroepen als ruimtelijke datadienst (spatial data service). De ruimtelijke datadienst maakt een meer specifieke bevraging op de dataset mogelijk (bijv. geocodering van een adres, een berekening tussen twee punten, etc.). De gebruiker krijgt toegang tot de data via zijn eigen bedrijfsapplicatie(s). De bedrijfsapplicaties moeten daarvoor wel geschikt zijn, d.w.z. de INSPIRE standaarden ondersteunen. 
 
-<img src='media/image24.png' alt='' style='width: 100%;'></img>
+<img src='media/image24.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 7.1 – Referentie architectuur INSPIRE </i>[[JRC126319]]
 
 Voor data providers is de architectuur complexer, met name door de data transformaties (bijv. coördinaatstelsel- en datamodeltransformaties), die uitgevoerd moeten worden om INSPIRE compliant data te leveren. Tevens zijn - naast het nationaal georegister - ook enkele generieke, ondersteunende voorzieningen beschikbaar, zoals een diverse registers (namespaces, coördinaatreferentiestelsels, begrippen, etc.) en validatietools. 
@@ -30,7 +30,7 @@ Voor data providers is de architectuur complexer, met name door de data transfor
 <b>INSPIRE afsprakenstelsel</b><br/>
 INSPIRE bestaat uit een set van formele afspraken, een kwaliteitsraamwerk met diverse aspecten van data delen binnen de Europese geo-informatie infrastructuur (zie figuur 7.2). 
 
-<img src='media/image25.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image25.jpg' alt='Afbeelding 10' style='width: 100%;'></img>
 <i>Figuur 7.2 – Afsprakenstelsel Europese geo-informatie infrastructuur (INSPIRE)</i>
 
 De volgende afspraken maken deel uit van het gehele kwaliteitsraamwerk:<br/>
@@ -51,7 +51,7 @@ De Europese geo-informatie infrastructuur is als data space tot stand gekomen al
 
 Formele afspraken over hoe data uniform beschreven moet worden tussen organisaties in verschillende lidstaten), die worden toegepast t.b.v. data product specificaties voor 34 thema’s. Afspraken over data interoperabiliteit zijn vastgelegd in conceptuele kaders en technische uitvoeringsregels: scope, te hanteren begrippen, generiek conceptueel model voor data modellen, data formaten, methodologie voor data harmonisatie, technische architectuur en standaarden.
 
-<img src='media/image26.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image26.jpg' alt='Afbeelding 26' style='width: 100%;'></img>
 <i>Figuur 7.3 - Focusgebieden INSPIRE als data space initiatief</i>
 
 INSPIRE beschrijft in technische uitvoeringsregels ook hoe de data uitwissel API’s moeten worden ingericht. Deze formele afspraken over functionaliteit voor het uitwisselen van data via principes van service oriented architecturen en gestandaardiseerde service interfaces zijn uitvoerig vastgelegd. Ook is een (kwaliteits)beschrijving van datasets en services met metadata ontwikkeld, zodat het zoeken-raadplegen-downloaden en aanroepen adagium van service georiënteerde architecturen wordt ondersteund. Daarbij is de mogelijkheid aanwezig voor conformiteitstoetsing t.b.v. EU rapportages op basis van Abstracte Test Suites. 

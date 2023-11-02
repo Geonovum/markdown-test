@@ -14,7 +14,7 @@ IDSA definieert standaarden en specificaties voor datasoevereiniteit. Deze stand
 
  
 
-<img src='media/image5.png' alt='' style='width: 100%;'></img>
+<img src='media/image5.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 3.1 – Globale overzicht van de IDS organisatie [[IDS-PPRB]]</i>
 
 Om ervoor te zorgen dat de toekomstige data-economie soepel functioneert en zijn waardepropositie waarmaakt, moeten alle spelers zich houden aan een gemeenschappelijk governancekader dat de functionele, technische, operationele en juridische overeenkomsten specificeert die hun rollen en interacties binnen en tussen de verschillende delen van het ecosysteem structureren. Dit boek met regels en richtlijnen schetst dat kader [[IDS-PPRB]]. Door deze regels en richtlijnen te volgen, kunnen alle spelers samenwerken om het gedeelde doel te bereiken om de volledige waarde van de wereldwijde data-economie te ontsluiten. 
@@ -70,7 +70,7 @@ De beschrijving omvat minimaal 6 categorieën van aandacht of ’de concerns’ 
 </ol>
 
 De digitale bron kan alleen geleverd worden na afronding van een dialoog tussen consument en dataleverancier. Denk aan: de aanvraag van de dienst door de afnemer, de wedervraag van de dienstverlener om meer informatie en het antwoord daarop. Deze dialoog stelt voorwaarden aan de afnemer. De afnemer moet de beschrijving van deze dialoog begrijpen, wil hij aan de voorwaarden kunnen voldoen. <br/>
-<img src='media/image7.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image7.jpg' alt='Afbeelding 11' style='width: 100%;'></img>
 <i>Figuur 3.3 – Concernsmodel voor IDS ‘resources’ [[IDS-RAM4]]</i>
 
 <b>Van informatieconcept naar implementatie</b><br/>
@@ -80,10 +80,10 @@ De conceptuele weergave of representatie van het informatiemodel biedt een overz
 
 De declaratieve weergave heet ‘IDS Ontology’ en geeft een normatief beeld van het IDS informatiemodel. Het is ontwikkeld op basis van de analyse, bevindingen en vereisten van de conceptuele representatie. Op basis van <a href='http://www.w3.org/standards/semanticweb' target='_blank'>W3C Semantic Web-technologiestandaarden</a> zoals DCAT, PROV en ODRL, biedt het een formele, machinaal interpreteerbare specificatie van concepten die door de conceptuele weergave worden beoogd. Bovendien beschrijft en definieert het formeel entiteiten van de IDS om de gestructureerde metadata van deze entiteiten te kunnen delen, zoeken en beredeneren. De IDS Ontology wordt meestal gebruikt en geïnstantieerd door kennisingenieurs, ontologie-experts of informatiearchitecten. In de praktijk worden bestaande domeinvocabulaires en -normen waar mogelijk hergebruikt, waardoor acceptatie en interoperabiliteit worden bevorderd.
 
-<img src='media/image8.png' alt='' style='width: 100%;'></img>
+<img src='media/image8.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Figuur 3.4 – Weergaven van het IDS informatiemodel </i>[[IDS-RAM4]]
 
-Als laatste richt de programmatische weergave van het informatiemodel zich op softwareleveranciers die het informatiemodel implementeren in software. De programmatische weergave biedt de best-effort mapping van de IDS Ontology op de native structuren van een doelprogrammeertaal (bijv. Java, Python, C ++). Het stelt software ontwikkelaars in staat om eenvoudig instanties van het informatiemodel te maken die voldoen aan de IDS Ontology. IDS heeft voor de programmatische weergave al diverse technische bouwstenen beschikbaar. Deze <span style='color: #24292F;'>IDS componenten, zoals een data connector of metadata broker, kunnen opnieuw gebouwd worden door bestaande bronnen als sjabloon te gebruiken, of zijn via bestaande </span><a href='https://github.com/International-Data-Spaces-Association/idsa/blob/main/how-to-build-data-spaces/3-Build-Components.md' target='_blank'>open source componenten</a><span style='color: #24292F;'> te (her)gebruiken. </span>
+Als laatste richt de programmatische weergave van het informatiemodel zich op softwareleveranciers die het informatiemodel implementeren in software. De programmatische weergave biedt de best-effort mapping van de IDS Ontology op de native structuren van een doelprogrammeertaal (bijv. Java, Python, C ++). Het stelt software ontwikkelaars in staat om eenvoudig instanties van het informatiemodel te maken die voldoen aan de IDS Ontology. IDS heeft voor de programmatische weergave al diverse technische bouwstenen beschikbaar. Deze <span style='color: #24292F;'><span style='background-color: #FFFFFF;'>IDS componenten, zoals een data connector of metadata broker, kunnen opnieuw gebouwd worden door bestaande bronnen als sjabloon te gebruiken, of zijn via bestaande </span></span><a href='https://github.com/International-Data-Spaces-Association/idsa/blob/main/how-to-build-data-spaces/3-Build-Components.md' target='_blank'><span style='background-color: #clear;'>open source</span><span style='background-color: #clear;'> </span><span style='background-color: #clear;'>componenten</span></a><span style='color: #24292F;'><span style='background-color: #FFFFFF;'> te (her)gebruiken. </span></span>
 
 Een transparant certificeringsproces zorgt voor vertrouwen van deelnemers en componenten binnen de data space. IDS maakt betrouwbare data-uitwisseling mogelijk tussen gecertificeerde data-aanbieders en -ontvangers, op basis van onderling overeengekomen regels. <br/>
 ## Synthese {#0EDC5E74}
@@ -96,7 +96,7 @@ Om te beginnen is IDS  een generiek cross-domein referentie model voor data spac
 
 In diverse use cases is de werking van IDS bouwstenen beproefd. In een position paper [[IDS-PPBM]] wordt een methode aangeboden om de business model en value case van de data space vast te stellen. IDS kent geen governance model voor data spaces, de referentie architectuur heeft wel de actoren en rollen van een data space vastgelegd. Een bijbehorende governance model voor de data space wordt aan de deelnemers van de domein-specifieke data space overgelaten. Diverse <a href='https://internationaldataspaces.org/make/use-cases-overview/' target='_blank'>use cases</a> illustreren het gebruik van IDS. 
 
-<img src='media/image9.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image9.jpg' alt='Afbeelding 27' style='width: 100%;'></img>
 <i>Figuur 3.5 - Focusgebieden IDS als data space initiatief</i>
 
 Wat betreft de interoperabiliteit biedt het IDS informatiemodel geen meta-model voor het definiëren van data of uitwissel API’s. De domeinmodellering is doorgaans gebaseerd op gedeelde vocabulaires en schema's, zoals bijvoorbeeld verstrekt door domein-specifieke gemeenschappen. Dat is aan de domein-specifieke gemeenschappen gelaten en is geen onderdeel van IDS. Interoperabiliteit is uitgewerkt in de vorm van de metadata en de data connector. Ook is geen of nauwelijks aandacht besteed aan herkomst en traceerbaarheid, anders dan dat de beschrijving van de digitale bronnen ook de herkomst meegenomen moet worden. Daarmee is herkomst onderdeel van het informatiemodel.  

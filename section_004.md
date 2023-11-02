@@ -18,7 +18,7 @@ Het doel van de Europese data spaces is het mogelijk maken om data uit de hele E
 
 Er zijn diverse synoniemen voor data spaces in omloop zijn, zoals ‘data-ecosysteem’ of enkel ‘ecosysteem’, ‘datadeelsysteem’, ‘datafederatie’ en ‘federatief datastelsel’. In deze verkenning wordt de term ‘data space’ gehanteerd mede ingegeven door de Europese Data strategie en de daaruit voorvloeiende impact voor de Nederlandse data-economie. We hebben niet de intentie een discussie te voeren over de juiste definitie van een data space, maar het gaat erom te duiden dat verschillende data space initiatieven bestaan, die ieder een bepaalde invulling geven aan het delen van data. Hieronder zijn enkele omschrijvingen van data spaces opgenomen, zoals die gevoerd worden door enkele belangrijke initiatieven.
 
-<img src='media/image1.png' alt='' style='width: 100%;'></img>
+<img src='media/image1.png' alt='Geen alternatieve tekst beschikbaar' style='width: 100%;'></img>
 <i>Bron: [[IDS-RAM3, IDS-RAM4]]</i>
 
 “The term ‘data space’ refers to a type of data relationship between trusted partners who adhere to the same high level standards and guidelines in relation to data storage and sharing within one or many <a href='https://gaia-x.eu/who-we-are/vertical-ecosystems/' target='_blank'>Vertical Ecosystems</a>.” 
@@ -58,7 +58,7 @@ In deze verkenning zijn de volgende data space initiatieven nader beschouwd en u
 
 Als concept wordt de data space vaak beschouwd aan de hand van de wijze waarop het data delen tot stand komt. Daarvoor wordt vaak een actorenmodel geschetst met de actoren, en rollen en hun onderlinge samenhang en interacties. En onmisbaar is ook het bouwstenenmodel, dat inzicht geeft in de governance bouwstenen en meer technische bouwstenen van de data space. Voor deze verkenning is het bouwstenenmodel van OPENDEI toegepast (<a href='#d4e810'>Figuur 3</a>). 
 
-<figure><img src='media/image3.png' alt='' style='width: 100%;'></img>
+<figure><img src='media/image3.png' alt='[GW] alternatieve tekst' style='width: 100%;'></img>
 <figcaption>Figuur 2.1 – Data space bouwstenen naar OPENDEI <b>[[OPENDEI-DPR]]</b></figcaption></figure>
 
 We beschouwen een aantal ‘data space’ initiatieven, waarbij telkens een aantal elementaire aspecten en onderdelen aan de orde komen:<br/>
@@ -77,7 +77,7 @@ Van het OPENDEI model zijn de 4 vier groepen of typeringen van de data space ele
  <br/>
 Het (position paper) model van de Data Sharing Coalition [[DSC-PP]]) is gebruikt voor een soortgelijke analyse van vijf data space initiatieven. Van dit model is de domein en cross-domein typering overgenomen en de harde infrastructuur (technische infrastructuur). De ‘soft infrastructuur’ uit het position paper DSC is vervangen door het OpenDEI model. Uiteindelijk is ook het beschikbaar zijn van een referentie architectuur toegevoegd, omdat de referentie architectuur vaak overzicht en inzicht in de samenhang tussen de onderdelen van het betreffende data space initiatief. 
 
-<img src='media/image4.jpg' alt='' style='width: 100%;'></img>
+<img src='media/image4.jpg' alt='Afbeelding 24' style='width: 100%;'></img>
 <i>Figuur 2.2 – Focus en beschouwingsgebieden data spaces van deze verkenning</i>
 
 Hieronder volgt een korte beschrijving van de elementaire aspecten of beschouwingsgebieden van de data spaces. Het vergelijken van de verschillende initiatieven wordt door het gebruik van verschillende begrippen(kaders) en onderdelen is niet altijd eenduidig en in sommige gevallen lastig te typeren. Vandaar dat we hieronder de elementaire onderdelen kort beschrijven zonder daarmee een eenduidige omschrijving te willen geven, We zullen daarbij tevens soortgelijke begrippen benoemen zoals die in de diverse initiatieven worden gehanteerd. <br/>

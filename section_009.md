@@ -8,7 +8,7 @@ Door gebruik te maken van het vertrouwenskader van iSHARE hebben data providers 
 ## iSHARE ‘trust framework’ {#537E71C2}
 
 Het iSHARE ‘trust framework’ of vertrouwenskader is een uniforme set van afspraken voor Identificatie, Authenticatie en Autorisatie (IAA), inclusief tooling die benodigd is om dit afsprakenstelsel te implementeren. Het iSHARE kader beschrijft een actormodel met zes rollen die, afhankelijk van de situatie, met elkaar interacteren op basis van de iSHARE ‘schemaovereenkomsten’ (zie figuur 6.1) [[iSHARE-GOV]]. <br/>
-<img src='media/image19.png' alt='' style='width: 75.87017873941674%;'></img>
+<img src='media/image19.png' alt='Picture 3' style='width: 75.87017873941674%;'></img>
 <i>Figuur 6.1 – iSHARE actormodel </i>[[iSHARE-GOV]]
 
 Elke rol heeft een bepaalde functie in het schema en draagt bepaalde verantwoordelijkheden. Elke partij, die een rol vervult in iSHARE moet iSHARE-houder of iSHARE-gecertificeerd zijn:<br/>
@@ -29,7 +29,7 @@ De rol van <b>autorisatieregister</b> wordt vervuld door een rechtspersoon, die 
 <b>Voorbeeld iSHARE vertrouwd data delen use case</b><br/>
 Om te illustreren hoe iSHARE vertrouwd data delen mogelijk maakt met behulp van het bovenstaande actormodel is hieronder een use case voorbeeld opgenomen. Om dit mechanisme van vertrouwd data delen toSHAREGOVF]e te lichten, hanteren we het volgende iSHARE use case voorbeeld [[iSHARE-S]]: het Centraal Bureau voor de Statistiek (CBS) wil (statistische) data voor haar modaliteitsrapportage opvragen van een vertrouwde importeur van televisies (die ook deelnemers is bij de iSHARE satelliet (zie figuur 6.2).
 
-<img src='media/image20.png' alt='' style='width: 100%;'></img>
+<img src='media/image20.png' alt='Picture 4' style='width: 100%;'></img>
 <i>Figuur 6.2 – iSHARE use case modaliteitsrapportage CBS (bron: </i><a href='https://www.youtube.com/watch?v=J9wfj3n1tIk' target='_blank'><i>iSHARE youtube presentatie</i></a><i>)</i>
 
  De volgende stappen worden doorlopen om de data delen: <br/>
@@ -80,13 +80,13 @@ De besturing van het iSHARE raamwerk is geregeld via een Nederlandse stichting, 
 
 De besturing van het iSHARE scheme [[iSHARE-S]] ligt bij de iSHARE stichting en is vastgelegd in het governancemodel van iSHARE (zie figuur 6.3) [[iSHARE-GOV]]. De iSHARE satellieten benoemen de leden in de iSHARE governance entiteiten en de data spaces die iSHARE als vertrouwensraamwerk gebruiken krijgen een plaats in de iSHARE governance en hebben zo invloed op de verdere ontwikkeling en behartiging van het belang van de data spaces.
 
-<img src='media/image21.png' alt='' style='width: 100%;'></img>
+<img src='media/image21.png' alt='Picture 5' style='width: 100%;'></img>
 <i>Figuur 6.3 – Besturing van het iSHARE scheme </i>[[iSHARE-GOV]]<br/>
 ## Synthese {#346DAB99}
 
 Het OPENDEI bouwstenen model voor data spaces laat zien, dat data soevereiniteit en vertrouwen en de drie bijbehorende bouwstenen identiteitsmanagement, toegangs- en gebruikscontrole en vertrouwde uitwisseling een belangrijk en integraal onderdeel zijn van het data space concept. Gezamenlijk worden ze het ‘vertrouwenskader’ genoemd. iSHARE positioneert zich in deze categorie van data space bouwstenen(zie figuur 6.4). 
 
-<img src='media/image22.png' alt='' style='width: 100%;'></img>
+<img src='media/image22.png' alt='Picture 3' style='width: 100%;'></img>
 <i>Figuur 6.4 – Focusgebieden iSHARE in relatie tot het OPENDEI model (bron: </i><a href='https://ishare.eu/data-space-definition-api/' target='_blank'><i>iSHARE</i></a><i>)</i>
 
 iSHARE is ontstaan in de logistiek, maar tevens toepasbaar in andere toepassingsdomeinen (figuur 6.5). <br/>
