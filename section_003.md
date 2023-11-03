@@ -18,7 +18,6 @@ Deze verkenning heeft een tweeledig doel:<br/>
 ## Aanpak {#3796BCF0}
 
 Deze verkenning is uitgevoerd aan de hand van deskresearch. De verschillende bronnen afkomstig van data space initiatieven zijn het belangrijkste vertrekpunt geweest voor een quick-scan analyse van de onderdelen van verschillende data space initiatieven.\
-
 De data space initiatieven zijn sterk in ontwikkeling. Samenwerkingen en coalitie-vorming vindt plaats en (technische) uitwerking van onderdelen en bouwstenen worden bekend en gepubliceerd. Ook de eerste ervaringen met (deel)implementaties worden zichtbaar. Dat betekent ook, dat deze verkenning niet af is en wordt bijgehouden en bijgewerkt op basis van nieuwe informatie en bronnen, die worden beschikbaar komen. gesteld door de data space initiatieven. Daarmee is deze verkenning vooralsnog een ‘levend’ document. <br/>
 ## Doelgroep {#08D51EF3}
 
