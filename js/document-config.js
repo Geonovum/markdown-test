@@ -9,7 +9,7 @@ var documentConfig =
   latestVersion: [
     "https://docs.geostandaarden.nl/eu/VerkenningDataspaces/"
   ],
-  publishDate: "2023-11-03",
+  publishDate: "2023-11-06",
   publishVersion: "1.1.0",
   thisVersion: [
     "https://geonovum.github.io/eu-VerkenningDataspaces/"
