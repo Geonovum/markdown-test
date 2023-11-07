@@ -69,7 +69,7 @@ Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756
 </tbody>
 </table>
 
-Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1773'>Tabel 3</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.<br/>
+Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1785'>Tabel 3</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.<br/>
 ## Gebruik van HTML en XHTML {#647D7D97}
 
 Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:\

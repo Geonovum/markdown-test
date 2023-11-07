@@ -8,7 +8,7 @@ Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is
 \
 NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}\
 \
-In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.[HOI]
+In <a href='#d4e2199'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.[HOI]
 <table style='width: 100%;'><caption>Onderdelen van het identificatienummer</caption>
 <colgroup><col id='col1' style='width: 22.58504949368529%;'
 <col id='col2' style='width: 77.41495050631471%;'
@@ -61,7 +61,7 @@ Voor ieder bronbestand worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e7
 ([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}[HOI]
 (_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)\
 \
-In <a href='#d4e2435'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
+In <a href='#d4e2447'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
 
 <table style='width: 100%;'><caption>Onderdelen van de bestandsnaam vereisten</caption>
 <colgroup><col id='col1' style='width: 43.73648879280919%;'
