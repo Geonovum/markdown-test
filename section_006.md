@@ -14,7 +14,7 @@ In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt 
 
 Bij het waarmerken wordt als technische standaard de W3C XML-Signature Syntax and Processing https://www.w3.org/TR/xmldsig-core1/ (xmldsig) standaard toegepast, met gebruikmaking van PKI-Overheid certificaten. Vanwege operationele veiligheidsaspecten is een aantal normatieve aanvullende restricties van toepassing, die door de landelijke voorziening Ruimtelijkeplannen.nl https://www.ruimtelijkeplannen.nl/ worden gehanteerd.\
 \
-Voor aanvullende specificaties en organisatorische aspecten rondom elektronische handtekeningen wordt verder verwezen naar PKI-Overheid.[HOI]<br/>
+Voor aanvullende specificaties en organisatorische aspecten rondom elektronische handtekeningen wordt verder verwezen naar PKI-Overheid.[HOI]
 ## Authenticiteitskenmerken van een individueel instrument {#789E64F8}
 
 De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:\
@@ -25,7 +25,7 @@ De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:
 <li>de elektronische handtekening wordt samen met de digests vastgelegd in een (xmldsig https://www.w3.org/TR/xmldsig-core1/) enveloped XML Signature element in het geleideformulier. Het geleideformulier bevat daarmee dus alle authenticiteitinformatie over het individuele ruimtelijk instrument.</li>
 </ol>
 
-Ieder ruimtelijk instrument heeft precies één gewaarmerkt geleideformulier, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.[HOI]<br/>
+Ieder ruimtelijk instrument heeft precies één gewaarmerkt geleideformulier, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.[HOI]
 ## Authenticiteitskenmerken van het Manifest {#647D7F2D}
 
 Het Manifest heeft tot doel om de totale beschikbare instrumentele voorraad van een bronhouder te beschrijven. De informatiebeveiliging van het Manifest van de bronhouder wordt als volgt geregeld:\
@@ -35,4 +35,4 @@ Het Manifest heeft tot doel om de totale beschikbare instrumentele voorraad van 
 <li>De elektronische handtekening wordt samen met de digest vastgelegd in een (xmldsig https://www.w3.org/TR/xmldsig-core1/) enveloped XML Signature element in het Manifest.</li>
 </ol>
 
-Iedere bronhouder heeft precies één gewaarmerkt Manifest, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.[HOI]<br/>
+Iedere bronhouder heeft precies één gewaarmerkt Manifest, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.[HOI]

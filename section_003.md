@@ -4,7 +4,7 @@ In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tev
 
 ## Bestandsextensies en toegestane formaten {#647D7D68}
 
-Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.[HOI]<br/>
+Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.[HOI]
 <table style='width: 100%;'><caption>Toegestane extensies en MIME types</caption>
 <colgroup><col id='col1' style='width: 24.075358298659268%;'
 <col id='col2' style='width: 33.33333333333333%;'

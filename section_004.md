@@ -8,7 +8,7 @@ Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is
 \
 NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}\
 \
-In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.[HOI]<br/>
+In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.[HOI]
 <table style='width: 100%;'><caption>Onderdelen van het identificatienummer</caption>
 <colgroup><col id='col1' style='width: 22.58504949368529%;'
 <col id='col2' style='width: 77.41495050631471%;'
@@ -53,12 +53,12 @@ In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expres
 
 Het gedeelte van het identificatienummer tot aan het liggend streepje wordt het dossiernummer genoemd. De reguliere expressie voor het dossiernummer is derhalve als volgt:\
 \
-NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}[HOI]<br/>
+NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}[HOI]
 ## Bestandsnaam vereisten {#4036FA61}
 
 Voor ieder bronbestand worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:\
 \
-([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}[HOI]<br/>
+([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}[HOI]
 (_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)\
 \
 In <a href='#d4e2435'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
