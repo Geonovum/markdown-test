@@ -1,27 +1,90 @@
-# Inleiding {#35E8CB5E}
+# Bestandstype {#647D7D66}
 
-## Aanleiding {#1C6853BD}
+In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tevens worden er in dit hoofdstuk nadere regels gesteld aan het gebruik van HTML en XHTML.
 
-In het <b>geo-domein </b><b><i>vindt data</i></b><b> delen plaats </b><b><span style='background-color: yellow;'>via</span></b><b> het concept </b>van de ‘Geo-Informatie Infrastructuur’. De Geo-Informatie Infrastructuur is een internationaal concept, dat bestaat uit een samenhangend geheel van data(sets) en metadata, datadiensten, afpraken, standaarden, voorzieningen, applicaties, infrastructuur en middelen nodig voor het delen van geo-informatie. Geo-informatie wordt ook wel ‘locatiegebonden data’ genoemd. In de afgelopen 10 tot 15 jaar is in Nederland en Europa gewerkt aan respectievelijk de Nationale en Europese Geo-informatie Infrastructuur. In Nederland heeft dit geresulteerd in het (open) ontsluiten van vele (duizenden) geo-datasets en geo-dataservices op het Internet zodat de data kan worden gedownload voor (her)gebruik. Belangrijk onderdeel vormen de geo-basisregistraties (zoals <code>BAG</code>, BRK, BRT, BGT en BRO) als fundamentele datasets van de geo-informatie infrastructuur. Nederland heeft daarbij een set van afspraken over interoperabiliteit en standaarden gemaakt en registers voor begrippen en informatiemodellen en de vindbaarheid van geodatasets ingericht. Beleid en governance binnen de overheid, bedrijfsleven en onderwijs- en kennisinstellingen zijn eveneens vormgegeven. En vanaf 2007 is de Europese equivalent met de Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (ook wel de INSPIRE Wet) tot stand gebracht waarmee Nederlandse geo-infomatie ook deel uitmaakt van de Europese geo-informatie infrastructuur.\
+## Bestandsextensies en toegestane formaten {#647D7D68}
+
+Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e808'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.[HOI]<br/>
+<table style='width: 100%;'><caption>Toegestane extensies en MIME types</caption>
+<colgroup><col id='col1' style='width: 24.07576747224037%;'
+<col id='col2' style='width: 33.33768778576094%;'
+<col id='col3' style='width: 42.586544741998694%;'
+</colgroup>
+<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #D9D9D9;'><b>Bestandstype</b><br/>
+</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #D9D9D9;'><b>Extensie</b><br/>
+</th>
+<th align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #D9D9D9;'><b>MIME type</b><br/>
+</th>
+</tr>
+</thead>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>XML<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.xml\
 \
-Vanuit datzelfde Europa is de afgelopen jaren een uitdagende nieuwe <dfn class='index-term' id='d4e98'>digitaliserings- en data strategie</dfn> opgesteld. De Europese digitale strategie en data strategie is bedoeld als de grote aanjager van de Europese data-economie (zie ook de <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data strategie</a>). Via regulering en projecten wil de EU meer grip krijgen op haar eigen data via de realisatie van een ‘common EU data space’. Een ‘data space’ is gericht is op het veilig, vertrouwd en soeverein delen van data binnen domeinen en over domeinen heen. Wat is een data space? Wat typeert een data space? En hoe kunnen we de data space als concept gebruiken en toepassen in relatie tot de (nationale) geo-informatie infrastructuur? Dat zijn de vragen die in deze verkenning aan de orde komen. We geven daarvoor inzicht in de achterliggende beginselen en concepten van data spaces vanuit diverse data space initiatieven die in de afgelopen jaren zijn ontstaan. We onderwerpen een aantal data space initiatieven aan een quick-scan analyse en bezien welke onderwerpen aandacht krijgen en ingevuld worden of zijn voor het delen van data.[HOI]<br/>
-## Doel {#54040E68}
-
-De toenemende Europese aandacht voor het delen van data tussen private en publieke partijen is een belangrijke aanleiding geweest voor deze verkenning. In diverse Europese en nationale initiatieven wordt gewerkt aan het realiseren van het maatschappelijke en economische potentieel van data delen. Deze initiatieven hebben hun eigen focus, bijvoorbeeld op de samenwerking, de bouwstenen, of op het realiseren van use cases. Wat zijn de focusgebieden van deze data space initiatieven? En wat is de positie van de geo-informatie infrastructuur als data space concept in relatie tot deze initiatieven voor het delen van data?\
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>text/xml<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>GML<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.gml<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>text/xml<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>HTML<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.htm, .html\
 \
-Deze verkenning heeft een tweeledig doel:[HOI]<br/>
-<ol><li>Zicht geven op de richtinggevende data space initiatieven in Nederland en Europa en hun focusgebieden. Daarmee inzicht krijgen in de verschillende gehanteerde concepten, actoren en bouwstenen van deze data spaces initiatieven en (in enkele gevallen) op welke wijze data space initiatieven verbonden zijn en kunnen worden;</li>
-<li>Zicht krijgen op de positie van de Europese en Nationale Geo-informatie Infrastructuur ten opzichte van deze richtinggevende data space initiatieven. De verschillende bestaande generieke initiatieven voor het delen van data werken aan het realiseren van oplossingen voor het delen van data. Inzicht in de positie van de Nationale Geo-informatie Infrastructuur (NGII) ten opzichte van deze initiatieven zou het de NGII (en Europese GII) in staat kunnen stellen om beter bij te dragen aan de Europese en nationale data-economie. Dit leidt tot de vraag; hoe de NGII en de generieke data space initiatieven zich tot elkaar verhouden en welke aspecten de NGII binnen zijn scope moet nemen om optimaal bij te dragen aan de data-economie?</li>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>text/html<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>XHTML<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.htm, .html, .xhtml\
+\
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>application/xhtml+xml<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>PDF<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.pdf\
+\
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>application/pdf<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>JPEG<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.jpeg, .jpg\
+\
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>image/jpeg<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>PNG<br/>
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>.png\
+\
+</td>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>image/png <br/>
+</td>
+</tr>
+</tbody>
+</table>
+
+Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e2018'>Tabel 3</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.<br/>
+## Gebruik van HTML en XHTML {#647D7D97}
+
+Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:\
+\
+<ol><li>het invoegen van de illustraties die onderdeel uitmaken van het ruimtelijk instrument is toegestaan. De URL van de illustratie die in het src attribuut van het &lt;img&gt; element wordt gespecificeerd is een relatieve URL zonder directory elementen. Dit is mogelijk omdat alle bestanden in één virtuele directory beschikbaar worden gesteld. Door het specificeren van een relatieve URL voor de &lt;img&gt; elementen blijft het ruimtelijk instrument bruikbaar indien het in zijn geheel in een andere raadpleegomgeving wordt getoond;</li>
+<li>het invoegen van illustraties die geen onderdeel uitmaken van het ruimtelijk instrument is niet toegestaan;</li>
+<li>gebruik van separate Cascading Style Sheets [https://www.w3.org/Style/CSS/] (CSS bestanden) voor de opmaak van HTML en XHTML bestanden is toegestaan. CSS bestanden maken geen onderdeel uit van het ruimtelijk instrument, maar referenties naar CSS bestanden die bij het tonen van het instrument beoogd zijn door de bronhouder kunnen zowel in &lt;link&gt; elementen alsook in het geleideformulier worden opgenomen (zie Hoofdstuk <a href='#647D7DE7'>5</a>). Omdat CSS bestanden geen formeel onderdeel zijn van het instrument, zijn URL's naar CSS bestanden op andere virtuele directories dan de formele onderdelen toegestaan;</li>
+<li>de HTML en XHTML bestanden worden raadpleegbaar op overheidswebsites. Daarom zijn de opmaak en technische randvoorwaarden van deze bestanden veelal gebaseerd op internationaal erkende richtlijnen van het World Wide Web Consortium (W3C) en de richtlijnen van digitale toegankelijkheid [https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/].</li>
+<li>HTML en XHTML pagina's dienen bruikbaar te blijven wanneer CSS door een webbrowser niet ondersteund wordt. Dit betekent dat er in de pagina geen inhoud verloren mag gaan als de CSS niet wordt toegepast op de pagina.</li>
 </ol>
 
-## Aanpak {#3796BCF0}
-
-Deze verkenning is uitgevoerd aan de hand van deskresearch. De verschillende bronnen afkomstig van data space initiatieven zijn het belangrijkste vertrekpunt geweest voor een quick-scan analyse van de onderdelen van verschillende data space initiatieven.\
-\
-De data space initiatieven zijn sterk in ontwikkeling. Samenwerkingen en coalitie-vorming vindt plaats en (technische) uitwerking van onderdelen en bouwstenen worden bekend en gepubliceerd. Ook de eerste ervaringen met (deel)implementaties worden zichtbaar. Dat betekent ook, dat deze verkenning niet af is en wordt bijgehouden en bijgewerkt op basis van nieuwe informatie en bronnen, die worden beschikbaar komen. gesteld door de data space initiatieven. Daarmee is deze verkenning vooralsnog een ‘levend’ document.[HOI]<br/>
-## Doelgroep {#08D51EF3}
-
-De “Verkenning data spaces” is geschreven voor iedereen die betrokken is bij het uitwisselen van geo-informatie (of locatie-gebonden informatie), het toepassen van standaarden voor geo-informatie en de Nationale en Europese geo-informatie infrastructuur. Zoals informatiemanagers, stuurgroepleden, beleidsmedewerkers, projectleiders, adviseurs, architecten, IT-leveranciers, en voor personen die dataproducten, standaarden en specificaties implementeren in hun organisatie en deze geografische data producten willen delen met andere organisaties en data space initiatieven in Nederland en Europa.[HOI]<br/>
-## Leeswijzer {#6C7C8F4B}
-
-Hoofdstuk 2 biedt achtergrondinformatie bij de quick-scan analyse van data space initiatieven in deze verkenning. Het data space concept van de International Data Spaces Association komt in Hoofdstuk 3 aan bod. In Hoofdstuk 4 wordt het aan de International Data Spaces nauw verwante initiatief Gaia-X besproken. Het OPENDEI raamwerk wordt in hoofdstuk 5 beschouwd en in hoofdstuk 6 het raamwerk van de Data Sharing Coalition. In hoofdstuk 7 en 8 worden achtereenvolgens de Europese en Nationale Geo-Informatie Infrastructuur beschouwd als data space initiatief. Vervolgens wordt in hoofdstuk 9 het iSHARE vertrouwenskader voor data spaces toegelicht.[HOI]<br/>
