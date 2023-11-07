@@ -98,9 +98,11 @@ In deze optie worden de planteksten niet objectgericht beschikbaar gesteld. Er w
 <col id='col5' style='width: 9.997688395746648%;'
 <col id='col6' style='width: 9.96301433194637%;'
 </colgroup>
-<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='6'>Plan : bestemmingsplan, inpassingsplan, rijksbestemmingsplan, wijzigingsplan, uitwerkingsplan
+<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='6'>Plan : bestemmingsplan, inpassingsplan, rijksbestemmingsplan, wijzigingsplan, uitwerkingsplan\
+\
 
-Besluit : aanwijzingsbesluit, beheersverordening, amvb, ministeriële regeling, provinciale verordening, reactieve aanwijzing, voorbereidingsbesluit, omgevingsvergunning, exploitatieplan, gerechtelijke uitspraak
+Besluit : aanwijzingsbesluit, beheersverordening, amvb, ministeriële regeling, provinciale verordening, reactieve aanwijzing, voorbereidingsbesluit, omgevingsvergunning, exploitatieplan, gerechtelijke uitspraak\
+\
 
 Visie : structuurvisie
 
