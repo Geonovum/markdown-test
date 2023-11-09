@@ -4,7 +4,8 @@ Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. I
 
 ## Beschikbaar stellen van bronbestanden {#647D7CD9}
 
-Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set bronbestanden. Voor verschillende typen instrumenten is dit een andere set. Als er gebruik wordt gemaakt van objectgerichte planteksten ontstaat een andere set bronbestanden dan wanneer de teksten zonder gebruikmaking van objectgerichte planteksten beschikbaar worden gesteld. De vereiste bronbestanden per instrument zijn gegeven in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a>. Deze tabellen zijn limitatief. Een ruimtelijk instrument bestaat alleen uit de genoemde verplichte en optionele bronbestanden.
+Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set bronbestanden. Voor verschillende typen instrumenten is dit een andere set. Als er gebruik wordt gemaakt van objectgerichte planteksten ontstaat een andere set bronbestanden dan wanneer de teksten zonder gebruikmaking van objectgerichte planteksten beschikbaar worden gesteld. De vereiste bronbestanden per instrument zijn gegeven in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a>. Deze tabellen zijn limitatief. Een ruimtelijk instrument bestaat alleen uit de genoemde verplichte en optionele bronbestanden.<br/>
+<br/>
 
 Burgemeester en wethouders, gedeputeerde staten en de verantwoordelijke minister of ministers (hierna aangeduid als bronhouder) stellen de geautoriseerde bronbestanden beschikbaar aan een ieder. Bij iedere beschikbaarstelling wordt gekozen uit één van de volgende twee opties:<br/>
 Optie 1 : beschikbaar stellen <i>met</i> gebruikmaking van IMROPT2012, zie paragraaf <a href='#647D7CE0'>2.2</a>;<br/>
@@ -134,13 +135,15 @@ In deze optie worden de planteksten niet objectgericht beschikbaar gesteld. Er w
 </tbody>
 </table>
 
-Verklaring bij <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a>:
+Verklaring bij <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a>:<br/>
+<br/>
 
 <i>Bestandstype</i>    bestandstype van het onderdeel; voor exacte bestandsformaten zie paragraaf <a href='#4036FA61'>4.2</a>;<br/>
 <i>[idn]</i>        identificatienummer van het ruimtelijk instrument, zie paragraaf <a href='#647D7DA3'>4.1</a>;<br/>
 <i>[xxx]</i>        tekstuele extensie als onderdeel van de bestandsnaam, zie paragraaf <a href='#4036FA61'>4.2</a>;<br/>
 <i>Multipliciteit    </i>1    het onderdeel komt altijd precies 1 keer voor en is daarmee dus verplicht;<br/>
 0..1    het onderdeel komt 0 of 1 keer voor en is dus optioneel;<br/>
-0..*    het onderdeel komt 0 of meer keer voor en is dus optioneel.
+0..*    het onderdeel komt 0 of meer keer voor en is dus optioneel.<br/>
+<br/>
 
 De in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> gespecificeerde optionele onderdelen kunnen onder voorwaarde verplicht zijn. In het Informatiemodel Ruimtelijke Ordening (IMRO2012) wordt nader aangegeven wanneer dit het geval is.<br/>
