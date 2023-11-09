@@ -39,8 +39,8 @@ Het Manifest is als volgt opgebouwd:<br/>
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E02'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E03'>Manifest</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E02'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E03'>Manifest</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E05'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E06'><i>m</i></td>
@@ -77,8 +77,8 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:<br/>
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E20'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E21'>Dossier</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E20'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E21'>Dossier</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E23'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E24'><i>m</i></td>
@@ -118,8 +118,8 @@ Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over h
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E40'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E41'>Plan (in Manifest)</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E40'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E41'>Plan (in Manifest)</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E43'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E44'><i>m</i></td>
@@ -155,8 +155,8 @@ Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze para
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E5D'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E5E'>Geleideformulier</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E5D'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E5E'>Geleideformulier</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E60'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E61'><i>m</i></td>
@@ -193,8 +193,8 @@ In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens 
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E7B'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E7C'>Plan (in GeleideFormulier)</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E7B'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E7C'>Plan (in GeleideFormulier)</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E7E'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E7F'><i>m</i></td>
@@ -227,8 +227,8 @@ In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende 
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7E95'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7E96'>Eigenschappen</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E95'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E96'>Eigenschappen</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E98'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E99'><i>m</i></td>
@@ -276,8 +276,8 @@ In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende info
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7EC1'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7EC2'>Onderdelen</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7EC1'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7EC2'>Onderdelen</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7EC4'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7EC5'><i>m</i></td>
@@ -334,8 +334,8 @@ In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende g
 <col id='col2' style='width: 6.465222348916762%;'
 <col id='col3' style='width: 67.67388825541619%;'
 </colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p class='space-after' id='647D7EF4'>Klasse</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p class='space-after' id='647D7EF5'>Supplementen</td>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7EF4'>Klasse</td>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7EF5'>Supplementen</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7EF7'><i>attribuutnaam</i></td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7EF8'><i>m</i></td>
