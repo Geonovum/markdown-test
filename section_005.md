@@ -35,9 +35,9 @@ Het Manifest is als volgt opgebouwd:<br/>
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E02'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E03'>Manifest</td>
@@ -73,9 +73,9 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:<br/>
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E20'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E21'>Dossier</td>
@@ -114,9 +114,9 @@ Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over h
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E40'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E41'>Plan (in Manifest)</td>
@@ -151,9 +151,9 @@ Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze para
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E5D'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E5E'>Geleideformulier</td>
@@ -189,9 +189,9 @@ In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens 
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E7B'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E7C'>Plan (in GeleideFormulier)</td>
@@ -223,9 +223,9 @@ In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende 
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7E95'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7E96'>Eigenschappen</td>
@@ -272,9 +272,9 @@ In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende info
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7EC1'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7EC2'>Onderdelen</td>
@@ -330,9 +330,9 @@ In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende g
 <br/>
 
 <table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 25.860889395667048%;'
-<col id='col2' style='width: 6.465222348916762%;'
-<col id='col3' style='width: 67.67388825541619%;'
+<colgroup><col id='col1' style='width: 25.860889395667048%;'>
+<col id='col2' style='width: 6.465222348916762%;'>
+<col id='col3' style='width: 67.67388825541619%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7EF4'>Klasse</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='2'><p id='647D7EF5'>Supplementen</td>

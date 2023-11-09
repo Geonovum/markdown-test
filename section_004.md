@@ -12,8 +12,8 @@ NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}<br/>
 
 In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.<br/>
 <table style='width: 100%;'><caption>Onderdelen van het identificatienummer</caption>
-<colgroup><col id='col1' style='width: 22.58504949368529%;'
-<col id='col2' style='width: 77.41495050631471%;'
+<colgroup><col id='col1' style='width: 22.58504949368529%;'>
+<col id='col2' style='width: 77.41495050631471%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7DAC'>Onderdeel reg. exp.</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7DAD'>Betekenis </td>
@@ -55,8 +55,8 @@ Voor ieder bronbestand worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e7
 In <a href='#d4e2427'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
 
 <table style='width: 100%;'><caption>Onderdelen van de bestandsnaam vereisten</caption>
-<colgroup><col id='col1' style='width: 43.73648879280919%;'
-<col id='col2' style='width: 56.26351120719081%;'
+<colgroup><col id='col1' style='width: 43.73648879280919%;'>
+<col id='col2' style='width: 56.26351120719081%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7DD1'>Onderdeel</td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7DD2'>Betekenis </td>
