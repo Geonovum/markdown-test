@@ -4,7 +4,7 @@ In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tev
 
 ## Bestandsextensies en toegestane formaten {#647D7D68}
 
-Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.<br/>
+Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.[BR]<br/>
 <table style='width: 100%;'><caption>Toegestane extensies en MIME types</caption>
 <colgroup><col id='col1' style='width: 24.075358298659268%;'>
 <col id='col2' style='width: 33.33333333333333%;'>
@@ -45,11 +45,11 @@ Voor ieder onderdeel worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756
 </tbody>
 </table>
 
-Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1785'>Tabel 3</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.<br/>
+Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1874'>Tabel 4</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.[BR]<br/>
 ## Gebruik van HTML en XHTML {#647D7D97}
 
-Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:<br/>
-<br/>
+Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:[BR]<br/>
+[BR]<br/>
 
 <ol><li>het invoegen van de illustraties die onderdeel uitmaken van het ruimtelijk instrument is toegestaan. De URL van de illustratie die in het src attribuut van het &lt;img&gt; element wordt gespecificeerd is een relatieve URL zonder directory elementen. Dit is mogelijk omdat alle bestanden in één virtuele directory beschikbaar worden gesteld. Door het specificeren van een relatieve URL voor de &lt;img&gt; elementen blijft het ruimtelijk instrument bruikbaar indien het in zijn geheel in een andere raadpleegomgeving wordt getoond;</li>
 <li>het invoegen van illustraties die geen onderdeel uitmaken van het ruimtelijk instrument is niet toegestaan;</li>

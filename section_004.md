@@ -4,13 +4,13 @@ Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). In dit hoo
 
 ## Identificatienummer {#647D7DA3}
 
-Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is beschreven door middel van een reguliere expressie, als volgt:<br/>
-<br/>
+Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is beschreven door middel van een reguliere expressie, als volgt:[BR]<br/>
+[BR]<br/>
 
-NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}<br/>
-<br/>
+NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}[BR]<br/>
+[BR]<br/>
 
-In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.<br/>
+In <a href='#d4e2276'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.[BR]<br/>
 <table style='width: 100%;'><caption>Onderdelen van het identificatienummer</caption>
 <colgroup><col id='col1' style='width: 22.58504949368529%;'>
 <col id='col2' style='width: 77.41495050631471%;'>
@@ -39,20 +39,20 @@ In <a href='#d4e2187'>Tabel 4</a> worden de onderdelen van deze reguliere expres
 </tbody>
 </table>
 
-Het gedeelte van het identificatienummer tot aan het liggend streepje wordt het dossiernummer genoemd. De reguliere expressie voor het dossiernummer is derhalve als volgt:<br/>
-<br/>
+Het gedeelte van het identificatienummer tot aan het liggend streepje wordt het dossiernummer genoemd. De reguliere expressie voor het dossiernummer is derhalve als volgt:[BR]<br/>
+[BR]<br/>
 
-NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}<br/>
+NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}[BR]<br/>
 ## Bestandsnaam vereisten {#4036FA61}
 
-Voor ieder bronbestand worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:<br/>
-<br/>
+Voor ieder bronbestand worden in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:[BR]<br/>
+[BR]<br/>
 
-([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}<br/>
-(_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)<br/>
-<br/>
+([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}[BR]<br/>
+(_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)[BR]<br/>
+[BR]<br/>
 
-In <a href='#d4e2427'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
+In <a href='#d4e2516'>Tabel 6</a> worden de onderdelen van deze reguliere expressie nader verklaard.
 
 <table style='width: 100%;'><caption>Onderdelen van de bestandsnaam vereisten</caption>
 <colgroup><col id='col1' style='width: 43.73648879280919%;'>

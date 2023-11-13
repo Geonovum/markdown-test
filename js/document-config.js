@@ -10,7 +10,7 @@ var documentConfig =
   latestVersion: [
     "https://docs.geostandaarden.nl/ro/STRI/"
   ],
-  publishDate: "2023-11-09",
+  publishDate: "2023-11-13",
   publishVersion: "2.1.0",
   thisVersion: [
     "https://geonovum.github.io/ro-STRI/"
