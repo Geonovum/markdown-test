@@ -3,8 +3,6 @@
 In dit hoofdstuk worden eisen gesteld aan de toegankelijkheid en raadpleegbaarheid van het ruimtelijk instrument.
 
 Naast de verplichting dat de bronbestanden van ieder ruimtelijk instrument door de bronhouder elektronisch beschikbaar worden gesteld, worden er tevens eisen gesteld aan de toegankelijkheid en raadpleegbaarheid van het ruimtelijk instrument, hierna de digitale verbeelding genoemd. Deze digitale verbeelding is een interactieve raadpleegomgeving via het internet en wordt onder andere verzorgd door de landelijke voorziening Ruimtelijkeplannen.nl. Aan de digitale verbeelding wordt een aantal eisen gesteld:[BR]<br/>
-[BR]<br/>
-
 <ol><li>De digitale verbeelding ontsluit de gehele inhoud van het ruimtelijk instrument;</li>
 <li>Voor bestemmingsplannen en inpassingsplannen wordt de digitale verbeelding gemaakt volgens de Standaard voor Vergelijkbare Bestemmingsplannen (SVBP2012);</li>
 <li>Voor de verbeelding is het transportprotocol van HTTPS toegestaan conform de lijst van open standaarden van het Forum standaardisatie https://forumstandaardisatie.nl/open-standaarden/https-en-hsts;</li>

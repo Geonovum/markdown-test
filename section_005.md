@@ -5,8 +5,6 @@ De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden geste
 ## Eisen aan de beschikbaarstelling {#42F69F15}
 
 Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:[BR]<br/>
-[BR]<br/>
-
 <ul><li>Publicatie van de manifesten en plannen door bronhouders van ruimtelijke plannen via standaard poort 443 voor HTTPS verkeer;</li>
 <li>Het gebruik van een beveiligde HTTPS verbinding via TLS https://datatracker.ietf.org/doc/html/rfc8446 is wettelijk verplicht door de wet digitale overheid https://wetten.overheid.nl/BWBR0048156/2023-07-01. Gebruik hiervoor de richtlijnen van het NCSC https://www.ncsc.nl/onderwerpen/verbindingsbeveiliging/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1;</li>
 <li>Voor de bestanden is de GET operatie van het transportprotocol van HTTP toegestaan conform de lijst van open standaarden van het Forum standaardisatie https://forumstandaardisatie.nl/open-standaarden/http;</li>
@@ -20,20 +18,10 @@ De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toe
 ## Opbouw Manifest {#1A10E1C7}
 
 Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.[BR]<br/>
-[BR]<br/>
-
 In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.[BR]<br/>
-[BR]<br/>
-
 Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.[BR]<br/>
-[BR]<br/>
-
 Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.[BR]<br/>
-[BR]<br/>
-
 Het Manifest is als volgt opgebouwd:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -70,8 +58,6 @@ Het Manifest is als volgt opgebouwd:[BR]<br/>
 </table>
 
 Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -111,8 +97,6 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:[BR]<
 </table>
 
 Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -148,8 +132,6 @@ De exacte opbouw van het XML Manifest is vastgelegd in een XML Schema dat naast 
 ## Opbouw Geleideformulier {#293B3DB0}
 
 Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze paragraaf.[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -186,8 +168,6 @@ Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze para
 </table>
 
 In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -220,8 +200,6 @@ In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens 
 </table>
 
 In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -269,8 +247,6 @@ In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende 
 </table>
 
 In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende informatie over de beschikbaar gestelde bronbestanden opgenomen:[BR]<br/>
-[BR]<br/>
-
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -326,8 +302,7 @@ In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende info
 </tbody>
 </table>
 
-In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende gegevens over mogelijke supplementen opgenomen:[BR]<br/>
-[BR]<br/>
+In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende gegevens over mogelijke supplementen opgenomen:
 
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
