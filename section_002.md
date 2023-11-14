@@ -69,13 +69,7 @@ In deze optie worden de planteksten niet objectgericht beschikbaar gesteld. Er w
 <col id='col5' style='width: 9.997688395746648%;'>
 <col id='col6' style='width: 9.96301433194637%;'>
 </colgroup>
-<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='6'><p class='space-after' id='08BEADFF'>Plan : bestemmingsplan, inpassingsplan, rijksbestemmingsplan, wijzigingsplan, uitwerkingsplan[WR]<br/>
-<br/>
-
-<p class='space-after' id='1625B3AE'>Besluit : aanwijzingsbesluit, beheersverordening, amvb, ministeriële regeling, provinciale verordening, reactieve aanwijzing, voorbereidingsbesluit, omgevingsvergunning, exploitatieplan, gerechtelijke uitspraak[WR]<br/>
-<br/>
-
-<p class='space-after' id='00BED3A5'>Visie : structuurvisie</th>
+<thead valign='top'><tr><th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' colspan='6'><p class='space-after' id='08BEADFF'>Plan : bestemmingsplan, inpassingsplan, rijksbestemmingsplan, wijzigingsplan, uitwerkingsplan<p class='space-after' id='1625B3AE'>Besluit : aanwijzingsbesluit, beheersverordening, amvb, ministeriële regeling, provinciale verordening, reactieve aanwijzing, voorbereidingsbesluit, omgevingsvergunning, exploitatieplan, gerechtelijke uitspraak<p class='space-after' id='00BED3A5'>Visie : structuurvisie</th>
 </tr>
 <tr><th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' rowspan='2'><p id='27981BD0'>Onderdeel van het ruimtelijk instrument</th>
 <th align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;' rowspan='2'><p id='116FD06F'>Naamconventie (excl. extensie)</th>
