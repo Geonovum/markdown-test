@@ -13,24 +13,21 @@ Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder
 <li>Alle bij het ruimtelijk instrument behorende bronbestanden worden binnen 1 virtuele directory beschikbaar gesteld.</li>
 </ul>
 <br/>
+<br/>
 De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.
 ## Opbouw Manifest {#1A10E1C7}
 Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.
 <br/>
 <br/>
-
 In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.
 <br/>
 <br/>
-
 Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.
 <br/>
 <br/>
-
 Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.
 <br/>
 <br/>
-
 Het Manifest is als volgt opgebouwd:
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
@@ -345,7 +342,6 @@ Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zon
 </ul>
 <br/>
 <br/>
-
 Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.
 ## Aanvullende specificaties {#4FC40025}
 Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragrafen, gelden deze aanvullende specificaties:
