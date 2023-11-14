@@ -1,8 +1,6 @@
 # Toegankelijkheid en raadpleegbaarheid {#647D7F37}
 
-In dit hoofdstuk worden eisen gesteld aan de toegankelijkheid en raadpleegbaarheid van het ruimtelijk instrument.[WR]<br/>
-<br/>
-
+In dit hoofdstuk worden eisen gesteld aan de toegankelijkheid en raadpleegbaarheid van het ruimtelijk instrument.
 Naast de verplichting dat de bronbestanden van ieder ruimtelijk instrument door de bronhouder elektronisch beschikbaar worden gesteld, worden er tevens eisen gesteld aan de toegankelijkheid en raadpleegbaarheid van het ruimtelijk instrument, hierna de digitale verbeelding genoemd. Deze digitale verbeelding is een interactieve raadpleegomgeving via het internet en wordt onder andere verzorgd door de landelijke voorziening Ruimtelijkeplannen.nl. Aan de digitale verbeelding wordt een aantal eisen gesteld:
 [WR]<br/>
 <br/>

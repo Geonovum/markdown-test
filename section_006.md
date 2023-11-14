@@ -1,8 +1,6 @@
 # Authenticiteitskenmerken {#1CDA4685}
 
-De op internet beschikbaar gestelde bronbestanden inclusief Manifest en geleideformulier moeten voorzien zijn van een waarmerk waarmee de integriteit, authenticiteit en volledigheid van de bestanden worden gewaarborgd. In dit hoofdstuk worden de normen hiervoor gegeven.[WR]<br/>
-<br/>
-
+De op internet beschikbaar gestelde bronbestanden inclusief Manifest en geleideformulier moeten voorzien zijn van een waarmerk waarmee de integriteit, authenticiteit en volledigheid van de bestanden worden gewaarborgd. In dit hoofdstuk worden de normen hiervoor gegeven.
 ## Waarmerken {#717AB549}
 
 In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt een aantal concrete maatregelen getroffen:

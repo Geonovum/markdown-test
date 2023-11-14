@@ -1,8 +1,6 @@
 # Onderdelen van de ruimtelijke instrumenten {#647D7CD7}
 
-Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. Ieder onderdeel bestaat uit één of meerdere bronbestanden. In dit hoofdstuk worden eisen gesteld aan de mogelijke samenstelling van onderdelen en bronbestanden.[WR]<br/>
-<br/>
-
+Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. Ieder onderdeel bestaat uit één of meerdere bronbestanden. In dit hoofdstuk worden eisen gesteld aan de mogelijke samenstelling van onderdelen en bronbestanden.
 ## Beschikbaar stellen van bronbestanden {#647D7CD9}
 
 Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set bronbestanden. Voor verschillende typen instrumenten is dit een andere set. Als er gebruik wordt gemaakt van objectgerichte planteksten ontstaat een andere set bronbestanden dan wanneer de teksten zonder gebruikmaking van objectgerichte planteksten beschikbaar worden gesteld. De vereiste bronbestanden per instrument zijn gegeven in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a>. Deze tabellen zijn limitatief. Een ruimtelijk instrument bestaat alleen uit de genoemde verplichte en optionele bronbestanden.

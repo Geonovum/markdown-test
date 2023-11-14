@@ -1,8 +1,6 @@
 # Beschikbaar stellen {#647D7DE7}
 
-De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden gesteld door de bronhouder. In dit hoofdstuk zijn de eisen voor deze beschikbaarstelling gegeven, inclusief inhoud en opbouw van het Manifest en geleideformulier, dat hier een onderdeel van is.[WR]<br/>
-<br/>
-
+De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden gesteld door de bronhouder. In dit hoofdstuk zijn de eisen voor deze beschikbaarstelling gegeven, inclusief inhoud en opbouw van het Manifest en geleideformulier, dat hier een onderdeel van is.
 ## Eisen aan de beschikbaarstelling {#42F69F15}
 
 Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:
