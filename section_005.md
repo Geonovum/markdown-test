@@ -4,7 +4,9 @@ De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden geste
 
 ## Eisen aan de beschikbaarstelling {#42F69F15}
 
-Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e212'>Tabel 1</a> en <a href='#d4e756'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:[BR]<br/>
+Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:[WR]<br/>
+<br/>
+
 <ul><li>Publicatie van de manifesten en plannen door bronhouders van ruimtelijke plannen via standaard poort 443 voor HTTPS verkeer;</li>
 <li>Het gebruik van een beveiligde HTTPS verbinding via TLS https://datatracker.ietf.org/doc/html/rfc8446 is wettelijk verplicht door de wet digitale overheid https://wetten.overheid.nl/BWBR0048156/2023-07-01. Gebruik hiervoor de richtlijnen van het NCSC https://www.ncsc.nl/onderwerpen/verbindingsbeveiliging/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1;</li>
 <li>Voor de bestanden is de GET operatie van het transportprotocol van HTTP toegestaan conform de lijst van open standaarden van het Forum standaardisatie https://forumstandaardisatie.nl/open-standaarden/http;</li>
@@ -14,14 +16,24 @@ Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder
 <li>Alle bij het ruimtelijk instrument behorende bronbestanden worden binnen 1 virtuele directory beschikbaar gesteld.</li>
 </ul>
 
-De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.[BR]<br/>
+De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.<br/>
 ## Opbouw Manifest {#1A10E1C7}
 
-Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.[BR]<br/>
-In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.[BR]<br/>
-Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.[BR]<br/>
-Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.[BR]<br/>
-Het Manifest is als volgt opgebouwd:[BR]<br/>
+Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.[WR]<br/>
+<br/>
+
+In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.[WR]<br/>
+<br/>
+
+Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.[WR]<br/>
+<br/>
+
+Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.[WR]<br/>
+<br/>
+
+Het Manifest is als volgt opgebouwd:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -57,7 +69,9 @@ Het Manifest is als volgt opgebouwd:[BR]<br/>
 </tbody>
 </table>
 
-Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:[BR]<br/>
+Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -96,7 +110,9 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:[BR]<
 </tbody>
 </table>
 
-Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
+Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -128,10 +144,12 @@ Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over h
 </tbody>
 </table>
 
-De exacte opbouw van het XML Manifest is vastgelegd in een XML Schema dat naast deze standaard beschikbaar is.[BR]<br/>
+De exacte opbouw van het XML Manifest is vastgelegd in een XML Schema dat naast deze standaard beschikbaar is.<br/>
 ## Opbouw Geleideformulier {#293B3DB0}
 
-Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze paragraaf.[BR]<br/>
+Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze paragraaf.[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -167,7 +185,9 @@ Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze para
 </tbody>
 </table>
 
-In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
+In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -199,7 +219,9 @@ In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens 
 </tbody>
 </table>
 
-In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[BR]<br/>
+In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende gegevens over het ruimtelijk instrument opgenomen:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -246,7 +268,9 @@ In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende 
 </tbody>
 </table>
 
-In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende informatie over de beschikbaar gestelde bronbestanden opgenomen:[BR]<br/>
+In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende informatie over de beschikbaar gestelde bronbestanden opgenomen:[WR]<br/>
+<br/>
+
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
 <col id='col2' style='width: 6.465222348916762%;'>
@@ -302,7 +326,8 @@ In het &lt;Onderdelen&gt; element in het Geleideformulier wordt de volgende info
 </tbody>
 </table>
 
-In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende gegevens over mogelijke supplementen opgenomen:
+In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende gegevens over mogelijke supplementen opgenomen:[WR]<br/>
+<br/>
 
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 25.860889395667048%;'>
@@ -331,18 +356,18 @@ In het &lt;Supplementen&gt; element in het Geleideformulier worden de volgende g
 </tbody>
 </table>
 
-De exacte opbouw van het XML geleideformulier is vastgelegd in een XML Schema dat naast deze standaard beschikbaar is.[BR]<br/>
+De exacte opbouw van het XML geleideformulier is vastgelegd in een XML Schema dat naast deze standaard beschikbaar is.<br/>
 ## Wijzigen reeds eerder gepubliceerde plannen {#5EBB12FD}
 
-Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zonder voorafgaand besluit, is het herstellen van de metadata c.q. de technische kenmerken van het ruimtelijk plan of besluit of het opheffen van inconsistenties in de planvoorraad tussen bronhouder en Ruimtelijkeplannen.nl. Het naderhand door de bronhouder aanpassen van reeds eerder gepubliceerde plannen kan en mag, indien het gaat om:[BR]<br/>
+Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zonder voorafgaand besluit, is het herstellen van de metadata c.q. de technische kenmerken van het ruimtelijk plan of besluit of het opheffen van inconsistenties in de planvoorraad tussen bronhouder en Ruimtelijkeplannen.nl. Het naderhand door de bronhouder aanpassen van reeds eerder gepubliceerde plannen kan en mag, indien het gaat om:<br/>
 <ul><li>een (beperkte) set van metadata die van cruciaal belang is voor (blijvende) begrijpelijkheid, raadpleegbaarheid en bruikbaarheid van plannen, niet alleen in de huidige LV, maar ook in het DSO.</li>
 <li>het ervoor zorgen dat, op grond van de bestaande verplichting daartoe in het Besluit ruimtelijke ordening (Bro), de lokaal aanwezige planvoorraad consistent is met de landelijke voorziening van de Wro Ruimtelijkeplannen.nl.</li>
 </ul>
 
-Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.[BR]<br/>
+Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.<br/>
 ## Aanvullende specificaties {#4FC40025}
 
-Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragrafen, gelden deze aanvullende specificaties:[BR]<br/>
+Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragrafen, gelden deze aanvullende specificaties:<br/>
 <ul><li>het is niet mogelijk om &lt;Plan&gt; elementen met een verschillend dossiernummer binnen hetzelfde &lt;Dossier&gt; element te plaatsen;</li>
 <li>het is niet mogelijk om &lt;Plan&gt; elementen met hetzelfde dossiernummer in verschillende &lt;Dossier&gt; elementen te plaatsen;</li>
 <li>het is niet mogelijk om meerdere &lt;Dossier&gt; elementen met hetzelfde dossiernummer te plaatsen;</li>
@@ -352,6 +377,6 @@ Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragra
 <li>voor de opbouw van het Manifest en het Geleideformulier is een XML Schema beschikbaar, dat samen met deze standaard beschikbaar is.</li>
 </ul>
 
-Noot[BR]<br/>
-De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit IMRO2008, zie:[BR]<br/>
-<a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf</a>[BR]<br/>
+Noot<br/>
+De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit IMRO2008, zie:<br/>
+<a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf</a><br/>
