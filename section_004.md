@@ -4,11 +4,11 @@ Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). In dit hoo
 ## Identificatienummer {#647D7DA3}
 
 Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is beschreven door middel van een reguliere expressie, als volgt:
-[WR]<br/>
+<br/>
 <br/>
 
 NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}
-[WR]<br/>
+<br/>
 <br/>
 
 In <a href='#d4e2277'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
@@ -41,19 +41,19 @@ In <a href='#d4e2277'>Tabel 5</a> worden de onderdelen van deze reguliere expres
 </table>
 
 Het gedeelte van het identificatienummer tot aan het liggend streepje wordt het dossiernummer genoemd. De reguliere expressie voor het dossiernummer is derhalve als volgt:
-[WR]<br/>
+<br/>
 <br/>
 
 NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}
 ## Bestandsnaam vereisten {#4036FA61}
 
 Voor ieder bronbestand worden in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:
-[WR]<br/>
+<br/>
 <br/>
 
 ([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}
 (_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)
-[WR]<br/>
+<br/>
 <br/>
 
 In <a href='#d4e2517'>Tabel 6</a> worden de onderdelen van deze reguliere expressie nader verklaard.

@@ -4,7 +4,7 @@ Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. I
 ## Beschikbaar stellen van bronbestanden {#647D7CD9}
 
 Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set bronbestanden. Voor verschillende typen instrumenten is dit een andere set. Als er gebruik wordt gemaakt van objectgerichte planteksten ontstaat een andere set bronbestanden dan wanneer de teksten zonder gebruikmaking van objectgerichte planteksten beschikbaar worden gesteld. De vereiste bronbestanden per instrument zijn gegeven in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a>. Deze tabellen zijn limitatief. Een ruimtelijk instrument bestaat alleen uit de genoemde verplichte en optionele bronbestanden.
-[WR]<br/>
+<br/>
 <br/>
 
 Burgemeester en wethouders, gedeputeerde staten en de verantwoordelijke minister of ministers (hierna aangeduid als bronhouder) stellen de geautoriseerde bronbestanden beschikbaar aan een ieder. Bij iedere beschikbaarstelling wordt gekozen uit één van de volgende twee opties:

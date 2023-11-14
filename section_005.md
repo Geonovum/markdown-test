@@ -4,7 +4,7 @@ De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden geste
 ## Eisen aan de beschikbaarstelling {#42F69F15}
 
 Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:
-[WR]<br/>
+<br/>
 <br/>
 
 <ul><li>Publicatie van de manifesten en plannen door bronhouders van ruimtelijke plannen via standaard poort 443 voor HTTPS verkeer;</li>
@@ -15,27 +15,26 @@ Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder
 <li>De beschikbaarstelling van een ruimtelijk instrument mag op iedere URL plaatsvinden en hoeft dus niet op de officiële website van de bronhouder te geschieden;</li>
 <li>Alle bij het ruimtelijk instrument behorende bronbestanden worden binnen 1 virtuele directory beschikbaar gesteld.</li>
 </ul>
-
-[WR]<br/>
+<br/>
 <br/>
 
 De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.
 ## Opbouw Manifest {#1A10E1C7}
 
 Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.
-[WR]<br/>
+<br/>
 <br/>
 
 In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.
-[WR]<br/>
+<br/>
 <br/>
 
 Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.
-[WR]<br/>
+<br/>
 <br/>
 
 Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.
-[WR]<br/>
+<br/>
 <br/>
 
 Het Manifest is als volgt opgebouwd:
@@ -103,7 +102,6 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:
 <li><b>vervallen</b></li>
 <li><b>geconsolideerd</b></li>
 </ul>
-
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7E38'>plan</td>
@@ -245,7 +243,6 @@ In het &lt;Eigenschappen&gt; element in het Geleideformulier worden de volgende 
 <li><b>vastgesteld</b></li>
 <li><b>geconsolideerd</b></li>
 </ul>
-
 <p id='647D7EAC'>De waarde is gelijk aan de status in het IMRO GML bestand.</td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7EAE'>datum</td>
@@ -354,8 +351,7 @@ Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zon
 <ul><li>een (beperkte) set van metadata die van cruciaal belang is voor (blijvende) begrijpelijkheid, raadpleegbaarheid en bruikbaarheid van plannen, niet alleen in de huidige LV, maar ook in het DSO.</li>
 <li>het ervoor zorgen dat, op grond van de bestaande verplichting daartoe in het Besluit ruimtelijke ordening (Bro), de lokaal aanwezige planvoorraad consistent is met de landelijke voorziening van de Wro Ruimtelijkeplannen.nl.</li>
 </ul>
-
-[WR]<br/>
+<br/>
 <br/>
 
 Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.
@@ -370,7 +366,6 @@ Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragra
 <li>&lt;Plan&gt; elementen met de status geconsolideerd komen alleen voor in &lt;Dossier&gt; elementen met de status geconsolideerd;</li>
 <li>voor de opbouw van het Manifest en het Geleideformulier is een XML Schema beschikbaar, dat samen met deze standaard beschikbaar is.</li>
 </ul>
-
 Noot
 De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit IMRO2008, zie:
 <a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf</a>

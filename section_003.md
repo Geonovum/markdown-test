@@ -48,7 +48,7 @@ Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1875'>Ta
 ## Gebruik van HTML en XHTML {#647D7D97}
 
 Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:
-[WR]<br/>
+<br/>
 <br/>
 
 <ol><li>het invoegen van de illustraties die onderdeel uitmaken van het ruimtelijk instrument is toegestaan. De URL van de illustratie die in het src attribuut van het &lt;img&gt; element wordt gespecificeerd is een relatieve URL zonder directory elementen. Dit is mogelijk omdat alle bestanden in één virtuele directory beschikbaar worden gesteld. Door het specificeren van een relatieve URL voor de &lt;img&gt; elementen blijft het ruimtelijk instrument bruikbaar indien het in zijn geheel in een andere raadpleegomgeving wordt getoond;</li>
@@ -57,4 +57,3 @@ Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikb
 <li>de HTML en XHTML bestanden worden raadpleegbaar op overheidswebsites. Daarom zijn de opmaak en technische randvoorwaarden van deze bestanden veelal gebaseerd op internationaal erkende richtlijnen van het World Wide Web Consortium (W3C) en de richtlijnen van digitale toegankelijkheid [https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/].</li>
 <li>HTML en XHTML pagina's dienen bruikbaar te blijven wanneer CSS door een webbrowser niet ondersteund wordt. Dit betekent dat er in de pagina geen inhoud verloren mag gaan als de CSS niet wordt toegepast op de pagina.</li>
 </ol>
-
