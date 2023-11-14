@@ -1,11 +1,9 @@
 # Authenticiteitskenmerken {#1CDA4685}
 
 De op internet beschikbaar gestelde bronbestanden inclusief Manifest en geleideformulier moeten voorzien zijn van een waarmerk waarmee de integriteit, authenticiteit en volledigheid van de bestanden worden gewaarborgd. In dit hoofdstuk worden de normen hiervoor gegeven.
-
 ## Waarmerken {#717AB549}
 
 In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt een aantal concrete maatregelen getroffen:
-
 [WR]<br/>
 <br/>
 
@@ -19,16 +17,13 @@ In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt 
 <br/>
 
 Bij het waarmerken wordt als technische standaard de W3C XML-Signature Syntax and Processing https://www.w3.org/TR/xmldsig-core1/ (xmldsig) standaard toegepast, met gebruikmaking van PKI-Overheid certificaten. Vanwege operationele veiligheidsaspecten is een aantal normatieve aanvullende restricties van toepassing, die door de landelijke voorziening Ruimtelijkeplannen.nl https://www.ruimtelijkeplannen.nl/ worden gehanteerd.
-
 [WR]<br/>
 <br/>
 
 Voor aanvullende specificaties en organisatorische aspecten rondom elektronische handtekeningen wordt verder verwezen naar PKI-Overheid.
-
 ## Authenticiteitskenmerken van een individueel instrument {#789E64F8}
 
 De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:
-
 [WR]<br/>
 <br/>
 
@@ -42,11 +37,9 @@ De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:
 <br/>
 
 Ieder ruimtelijk instrument heeft precies één gewaarmerkt geleideformulier, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.
-
 ## Authenticiteitskenmerken van het Manifest {#647D7F2D}
 
 Het Manifest heeft tot doel om de totale beschikbare instrumentele voorraad van een bronhouder te beschrijven. De informatiebeveiliging van het Manifest van de bronhouder wordt als volgt geregeld:
-
 [WR]<br/>
 <br/>
 
@@ -59,4 +52,3 @@ Het Manifest heeft tot doel om de totale beschikbare instrumentele voorraad van 
 <br/>
 
 Iedere bronhouder heeft precies één gewaarmerkt Manifest, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.
-

@@ -1,11 +1,9 @@
 # Bestandstype {#647D7D66}
 
 In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tevens worden er in dit hoofdstuk nadere regels gesteld aan het gebruik van HTML en XHTML.
-
 ## Bestandsextensies en toegestane formaten {#647D7D68}
 
 Voor ieder onderdeel worden in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.
-
 <table style='width: 100%;'><caption>Toegestane extensies en MIME types</caption>
 <colgroup><col id='col1' style='width: 24.075358298659268%;'>
 <col id='col2' style='width: 33.33333333333333%;'>
@@ -47,11 +45,9 @@ Voor ieder onderdeel worden in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757
 </table>
 
 Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1875'>Tabel 4</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.
-
 ## Gebruik van HTML en XHTML {#647D7D97}
 
 Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:
-
 [WR]<br/>
 <br/>
 
