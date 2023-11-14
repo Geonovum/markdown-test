@@ -1,8 +1,6 @@
 # Authenticiteitskenmerken {#1CDA4685}
-
 De op internet beschikbaar gestelde bronbestanden inclusief Manifest en geleideformulier moeten voorzien zijn van een waarmerk waarmee de integriteit, authenticiteit en volledigheid van de bestanden worden gewaarborgd. In dit hoofdstuk worden de normen hiervoor gegeven.
 ## Waarmerken {#717AB549}
-
 In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt een aantal concrete maatregelen getroffen:
 <br/>
 <br/>
@@ -21,7 +19,6 @@ Bij het waarmerken wordt als technische standaard de W3C XML-Signature Syntax an
 
 Voor aanvullende specificaties en organisatorische aspecten rondom elektronische handtekeningen wordt verder verwezen naar PKI-Overheid.
 ## Authenticiteitskenmerken van een individueel instrument {#789E64F8}
-
 De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:
 <br/>
 <br/>
@@ -36,7 +33,6 @@ De informatiebeveiliging van een individueel ruimtelijk instrument is als volgt:
 
 Ieder ruimtelijk instrument heeft precies één gewaarmerkt geleideformulier, waarbij de inhoud van het Signature element overeen komt met bovenstaande onderdelen.
 ## Authenticiteitskenmerken van het Manifest {#647D7F2D}
-
 Het Manifest heeft tot doel om de totale beschikbare instrumentele voorraad van een bronhouder te beschrijven. De informatiebeveiliging van het Manifest van de bronhouder wordt als volgt geregeld:
 <br/>
 <br/>
