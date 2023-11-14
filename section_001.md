@@ -6,6 +6,9 @@ In de Wet ruimtelijke ordening (Wro) en het Besluit ruimtelijke ordening (Bro) i
 
 Deze standaard is nodig om drie redenen:
 
+[WR]<br/>
+<br/>
+
 <ul><li>Waarborgen van de bruikbaarheid en interoperabiliteit van de ruimtelijke instrumenten door middel van het vaststellen van technische vormvereisten;</li>
 <li>Waarborgen van de vindbaarheid en raadpleegbaarheid van de ruimtelijke instrumenten door middel van het vaststellen van regels rondom de elektronische beschikbaarstelling;</li>
 <li>Waarborgen van de rechtszekerheid door middel van het vaststellen van vereisten rondom integriteit, authenticiteit en volledigheid van de ruimtelijke instrumenten.</li>

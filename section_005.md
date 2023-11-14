@@ -6,6 +6,9 @@ De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden geste
 
 Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:
 
+[WR]<br/>
+<br/>
+
 <ul><li>Publicatie van de manifesten en plannen door bronhouders van ruimtelijke plannen via standaard poort 443 voor HTTPS verkeer;</li>
 <li>Het gebruik van een beveiligde HTTPS verbinding via TLS https://datatracker.ietf.org/doc/html/rfc8446 is wettelijk verplicht door de wet digitale overheid https://wetten.overheid.nl/BWBR0048156/2023-07-01. Gebruik hiervoor de richtlijnen van het NCSC https://www.ncsc.nl/onderwerpen/verbindingsbeveiliging/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1;</li>
 <li>Voor de bestanden is de GET operatie van het transportprotocol van HTTP toegestaan conform de lijst van open standaarden van het Forum standaardisatie https://forumstandaardisatie.nl/open-standaarden/http;</li>
@@ -15,17 +18,32 @@ Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder
 <li>Alle bij het ruimtelijk instrument behorende bronbestanden worden binnen 1 virtuele directory beschikbaar gesteld.</li>
 </ul>
 
+[WR]<br/>
+<br/>
+
 De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.
 
 ## Opbouw Manifest {#1A10E1C7}
 
 Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.
 
+[WR]<br/>
+<br/>
+
 In aanvulling op het Manifest kent ieder ruimtelijk instrument een verplicht XML Geleideformulier met gedetailleerde informatie over het individueel instrument. Ook het geleideformulier is gewaarmerkt met een elektronische handtekening.
+
+[WR]<br/>
+<br/>
 
 Het Manifest mag op ieder webadres (URL) beschikbaar worden gesteld. Het geleideformulier wordt beschikbaar gesteld binnen dezelfde virtuele directory als het instrument zelf.
 
+[WR]<br/>
+<br/>
+
 Hoewel Manifest en geleideformulier beide een Signature element kennen, heeft dit element bij beide types documenten een andere inhoud en betekenis. In Hoofdstuk <a href='#1CDA4685'>6</a> wordt hier nader op ingegaan.
+
+[WR]<br/>
+<br/>
 
 Het Manifest is als volgt opgebouwd:
 
@@ -354,6 +372,9 @@ Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zon
 <ul><li>een (beperkte) set van metadata die van cruciaal belang is voor (blijvende) begrijpelijkheid, raadpleegbaarheid en bruikbaarheid van plannen, niet alleen in de huidige LV, maar ook in het DSO.</li>
 <li>het ervoor zorgen dat, op grond van de bestaande verplichting daartoe in het Besluit ruimtelijke ordening (Bro), de lokaal aanwezige planvoorraad consistent is met de landelijke voorziening van de Wro Ruimtelijkeplannen.nl.</li>
 </ul>
+
+[WR]<br/>
+<br/>
 
 Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.
 
