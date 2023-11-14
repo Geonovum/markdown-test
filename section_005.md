@@ -13,7 +13,6 @@ Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder
 <li>Alle bij het ruimtelijk instrument behorende bronbestanden worden binnen 1 virtuele directory beschikbaar gesteld.</li>
 </ul><br/>
 <br/>
-
 De bronbestanden van ieder beschikbaar gesteld ruimtelijk instrument blijven toegankelijk totdat een instrument onherroepelijk in werking is getreden. Op dat moment blijven in elk geval de actuele versie van het instrument en alle eventuele daarbij behorende reactieve aanwijzingen en gerechtelijke uitspraken beschikbaar. Als een instrument geheel vervallen is, mag het in zijn geheel worden verwijderd van internet.
 ## Opbouw Manifest {#1A10E1C7}
 Iedere bronhouder in Nederland stelt een Manifest beschikbaar. Het Manifest is een XML bestand dat een inhoudsopgave vormt van alle elektronisch beschikbare ruimtelijk instrumenten van de desbetreffende bronhouder. In het Manifest zijn de ruimtelijke instrumenten gerangschikt per dossiernummer. Aan ieder dossiernummer in het Manifest wordt een procedurestatus toegekend. De bronhouder houdt deze status per dossiernummer bij iedere wijziging actueel. Het Manifest is gewaarmerkt met een elektronische handtekening.
