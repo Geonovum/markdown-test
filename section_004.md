@@ -1,6 +1,8 @@
 # Identificatienummer en bestandsnaam {#647D7DA1}
 
-Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). In dit hoofdstuk is aangegeven hoe de opbouw van dit idn is. Tevens zijn in dit hoofdstuk de eisen voor de bestandsnamen van de bronbestanden vastgelegd, waarvan het idn een belangrijke basis is.
+Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). In dit hoofdstuk is aangegeven hoe de opbouw van dit idn is. Tevens zijn in dit hoofdstuk de eisen voor de bestandsnamen van de bronbestanden vastgelegd, waarvan het idn een belangrijke basis is.[WR]<br/>
+<br/>
+
 ## Identificatienummer {#647D7DA3}
 
 Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is beschreven door middel van een reguliere expressie, als volgt:

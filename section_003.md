@@ -1,6 +1,8 @@
 # Bestandstype {#647D7D66}
 
-In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tevens worden er in dit hoofdstuk nadere regels gesteld aan het gebruik van HTML en XHTML.
+In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tevens worden er in dit hoofdstuk nadere regels gesteld aan het gebruik van HTML en XHTML.[WR]<br/>
+<br/>
+
 ## Bestandsextensies en toegestane formaten {#647D7D68}
 
 Voor ieder onderdeel worden in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.
