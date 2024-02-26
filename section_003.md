@@ -1,55 +1,81 @@
-# Bestandstype {#647D7D66}
-In dit hoofdstuk is aangegeven welke bestandstypen moeten worden gehanteerd. Tevens worden er in dit hoofdstuk nadere regels gesteld aan het gebruik van HTML en XHTML.
-## Bestandsextensies en toegestane formaten {#647D7D68}
-Voor ieder onderdeel worden in <a href='#d4e213'>Tabel 1</a> en <a href='#d4e757'>Tabel 2</a> eisen gesteld aan de mogelijke bestandstypen. De bestandstypes met toegestane extensies en MIME types worden gegeven in Tabel 3.
-<table style='width: 100%;'><caption>Toegestane extensies en MIME types</caption>
-<colgroup><col id='col1' style='width: 24.075358298659268%;'>
-<col id='col2' style='width: 33.33333333333333%;'>
-<col id='col3' style='width: 42.5913083680074%;'>
-</colgroup>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7D6D'>Bestandstype</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7D6E'>Extensie</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: #4F81BD;'><p id='647D7D6F'>MIME type</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D71'>XML</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D73'>.xml</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D74'>text/xml</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D77'>GML</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D78'>.gml</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D79'>text/xml</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D7B'>HTML</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D7D'>.htm, .html</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D7E'>text/html</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D80'>XHTML</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D82'>.htm, .html, .xhtml</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D83'>application/xhtml+xml</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D85'>PDF</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D87'>.pdf</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D88'>application/pdf</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D8A'>JPEG</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D8C'>.jpeg, .jpg</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D8D'>image/jpeg</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D8F'>PNG</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D91'>.png</td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'><p id='647D7D92'>image/png </td>
-</tr>
-</tbody>
-</table>
-
-Ten gevolge van extern beleid zijn er voor ieder van de in <a href='#d4e1875'>Tabel 4</a> genoemde bestandstypes veelal aanvullende specificaties van toepassing met betrekking tot de exact toegestane bestandsformaten. De specificaties zijn niet opgenomen in deze standaard, omdat deze aan wijzigingen onderhevig zijn die een andere dynamiek kunnen hebben dan de voorliggende standaard.
-## Gebruik van HTML en XHTML {#647D7D97}
-Een aantal onderdelen van de verschillende ruimtelijke instrumenten kan beschikbaar gesteld worden in HTML of XHTML formaat. Bij het gebruik van deze formaten is een aantal aanvullende regels van kracht:
+# Inleiding {#3F0B9851}
+Om gestandaardiseerd metadata uit te wisselen tussen verschillende dataportalen heeft Europa het DCAT-AP [[DCAT-AP-3.0]] ontwikkeld. [[DCAT-AP-3.0]] is gebaseerd op de <a href='https://www.w3.org/TR/vocab-dcat-2/' target='_blank'>"Data Catalog Vocabulary" (DCAT)</a> -specificatie [[DCAT-3.0]], die wordt ontwikkeld door de Dataset Exchange Working Group. DCAT is een RDF-vocabulaire die ontworpen is om de interoperabiliteit tussen op het web gepubliceerde datacatalogi te vergemakkelijken. Dit profiel faciliteert de uitwisseling van metadata van verschillende domeinen tussen Nederlandse datacatalogi van (semi)overheidsorganisaties op lokaal, regionaal en landelijk nivo en tussen Nederlandse datacatalogi en EU datacatalogi, Het definieert het schema en geeft voorbeelden voor het gebruik ervan.
 <br/>
 <br/>
-<ol><li>het invoegen van de illustraties die onderdeel uitmaken van het ruimtelijk instrument is toegestaan. De URL van de illustratie die in het src attribuut van het &lt;img&gt; element wordt gespecificeerd is een relatieve URL zonder directory elementen. Dit is mogelijk omdat alle bestanden in één virtuele directory beschikbaar worden gesteld. Door het specificeren van een relatieve URL voor de &lt;img&gt; elementen blijft het ruimtelijk instrument bruikbaar indien het in zijn geheel in een andere raadpleegomgeving wordt getoond;</li>
-<li>het invoegen van illustraties die geen onderdeel uitmaken van het ruimtelijk instrument is niet toegestaan;</li>
-<li>gebruik van separate Cascading Style Sheets [https://www.w3.org/Style/CSS/] (CSS bestanden) voor de opmaak van HTML en XHTML bestanden is toegestaan. CSS bestanden maken geen onderdeel uit van het ruimtelijk instrument, maar referenties naar CSS bestanden die bij het tonen van het instrument beoogd zijn door de bronhouder kunnen zowel in &lt;link&gt; elementen alsook in het geleideformulier worden opgenomen (zie Hoofdstuk <a href='#647D7DE7'>5</a>). Omdat CSS bestanden geen formeel onderdeel zijn van het instrument, zijn URL's naar CSS bestanden op andere virtuele directories dan de formele onderdelen toegestaan;</li>
-<li>de HTML en XHTML bestanden worden raadpleegbaar op overheidswebsites. Daarom zijn de opmaak en technische randvoorwaarden van deze bestanden veelal gebaseerd op internationaal erkende richtlijnen van het World Wide Web Consortium (W3C) en de richtlijnen van digitale toegankelijkheid [https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/digitale-inclusie/digitaal-toegankelijk/].</li>
-<li>HTML en XHTML pagina's dienen bruikbaar te blijven wanneer CSS door een webbrowser niet ondersteund wordt. Dit betekent dat er in de pagina geen inhoud verloren mag gaan als de CSS niet wordt toegepast op de pagina.</li>
+DCAT stelt een dataprovider in staat om datasets en dataservices in een catalogus te beschrijven met behulp van een standaardmodel en vocabulaire dat het gebruik en de aggregatie van metadata uit meerdere catalogi vergemakkelijkt. Dit kan de vindbaarheid van datasets en dataservices vergroten. Het maakt het ook mogelijk om een gedecentraliseerde benadering te hebben voor het publiceren van datacatalogi en maakt federatief zoeken naar datasets in catalogi op meerdere sites mogelijk met behulp van hetzelfde querymechanisme en dezelfde structuur.
+<br/>
+<br/>
+In DCAT worden klassen en eigenschappen van andere gevestigde vocabulaires (ADMS, FOAF) hergebruikt. DCAT maakt gebruik van een bewezen set gemeenschappelijke metadata genaamd "Dublin Core", die in 2009 als ISO 15836-standaard werd gepubliceerd.
+<br/>
+<br/>
+Dit document beschrijft het Nederlandse applicatieprofiel op [[DCAT-AP-3.0]]. Dit Nederlandse applicatieprofiel - DCAT-AP NL- beantwoordt de vraag over hoe [[DCAT-AP-3.0]] in de praktijk wordt toegepast Nederland.
+## Uitgangspunten {#2536E4CD}
+Bij het opstellen zijn van het applicatie profiel zijn volgende uitgangspunten gehanteerd: 
+<br/>
+<br/>
+<b>Toepassingsbereik</b>
+DCAT-AP-NL faciliteert: 
+de uitwisseling van metadata tussen Nederlandse datacatalogi van (semi-) overheidsorganisatie en overige organisaties die maatschappelijke relevante data willen delen. 
+de uitwisseling van metadata tussen Nederlandse datacatalogi en EU datacatalogi
+de uitwisseling van metadata van primair open data, maar is hier niet toe beperkt
+de specifieke Nederlandse behoeften van metadata in datacatalogi
+de DCAT-AP annex for High Value Datasets [[DCAT-AP-HVD]]  (nog in ontwikkeling)
+<br/>
+<br/>
+<b>Informatiemodellering</b>
+DCAT-AP-NL: 
+is een verdere specialisatie van [[DCAT-AP-3.0.0]]
+als je voldoet aan DCAT-AP NL voldoe je ook aan [[DCAT-AP-3.0.0]]
+bevat alle verplichte en aanbevolen properties [[DCAT-AP-3.0.0]], waarbij de gebruiksvoorwaarden van DCAT-AP-NL gelden 
+properties uit [[DCAT-AP-3.0.0]] of [[DCAT-3.0]]   die niet voorkomen in DCAT-AP-NL zijn optioneel
+introduceert geen uitbreidingen, 
+als die al uitgedrukt kunnen worden in [[DCAT-AP-3.0.0]] of [[DCAT-3.0]]  ,
+tenzij er een hele sterke behoefte / aanleiding toe is, en het [[DCAT-AP-3.0.0]] of [[DCAT-3.0]]   vocabulary hierin NIET voorziet
+is zo generiek mogelijk van opzet en ligt zo dicht mogelijk bij [[DCAT-AP-3.0.0]]
+is opgesteld in het Nederlands
+## Relatie andere profielen {#01CB11A8}
+Dit profiel is een verdere specificatie van het toepassingsprofiel van de Europa [[DCAT-AP-3.0]]. Hierbij zijn aanpassingen gedaan op basis van ervaring met DCAT-AP-DONL 1.1 en onderzoek en discussies in de werkgroep DCAT-AP-NL en is aansluiting gezocht bij metadata standaarden uit het geo en statististische domein. DCAT-AP-NL is compatible met [[DCAT-3.0]]   en [[DCAT-AP-3.0]] . 
+<br/>
+<br/>
+<img src='media/image1.png' alt='Afbeelding met tekst, schermopname, Rechthoek, diagram' style='width: 100%;'></img>
+<br/>
+<br/>
+<ol><li>DCAT-AP-NL positionering<i></i></li>
 </ol>
+<br/>
+<br/>
+Om zoveel mogelijk scenario's te ondersteunen, verplichten de originele [[DCAT-3.0]]  van het W3C en het toepassingsprofiel van de EU [[DCAT-AP-3.0]] weinig. 
+Op dit moment zijn [[DCAT-3.0]] en [[DCAT-AP-3.0]] als kandidaat release versie beschikbaar. Na het vaststellen van deze standaarden zal er zal gekeken worden of het DCAT-AP-NL profiel ook bijgewerkt moet worden.
+## Normatieve verwijzingen {#1D7CC3E3}
+De volgende normen, standaarden en specificaties zijn toegepast in dit profiel:
+<br/>
+<br/>
+[ident]
+<br/>
+<br/>
+EN [<b>[</b><a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'><b>ISO19115-2005</b></a><b>]]</b> Geographic information – Metadata
+<a href='https://www.iso.org/standard/26020.html' target='_blank'>https://www.iso.org/standard/26020.html</a>
+<br/>
+<br/>
+[[DCAT-2.0]]  Data Catalog Vocabulary - Version 2.0 W3C Recommendation 04 February 
+2020 <a href='https://www.w3.org/TR/vocab-dcat-2' target='_blank'>https://www.w3.org/TR/vocab-dcat-2</a>
+<br/>
+<br/>
+[[DCAT-3.0]] Data Catalog Vocabulary – Version 3.0 W3C Editor's Draft 25 August 2023
+https://www.w3.org/TR/vocab-dcat-3/
+<br/>
+<br/>
+[[DCAT-AP-2.1.1]] DCAT Application Profile for data portals in Europe Version 2.1.0, <a href='https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/211' target='_blank'>https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/211</a>
+<br/>
+<br/>
+[[DCAT-AP-3.0]] DCAT Application Profile for data portals in Europe Version 3.0 Candidate Recommendation published at 2024-02-12 https://semiceu.github.io//DCAT-AP/releases/3.0
+<br/>
+<br/>
+[[DCAT-AP-HVD]] DCAT-AP High Value Datasets Candidate Recommendation published at 14 December 2023 https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/
+<br/>
+<br/>
+[[DCAT-AP-DONL]] DCAT-AP-DONL 2.0
+24 november 2022 https://dataoverheid.github.io/dcat-ap-donl/
+<br/>
+<br/>
+…
