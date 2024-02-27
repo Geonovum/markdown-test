@@ -1,115 +1,63 @@
-# Termen en Definities {#7001826E}
-Een <b>applicatieprofiel</b> is een specificatie voor gegevensuitwisseling dat bijkomende beperkingen introduceert voor het toepassen van vocabularia. Dergelijke bijkomende beperkingen kunnen de volgende elementen bevatten:
+# Structuur van het toepassingsprofiel {#3F9A775E}
+## DCAT als universeel vocabulaire {#09DBB0B1}
+Het toepassingsprofiel in dit document is gebaseerd op de specificatie van de Data Catalog Vocabulary (DCAT), ontwikkeld onder verantwoordelijkheid van de Government Linked Data Working Group bij W3C. DCAT is een RDF-vocabulaire dat is ontworpen om interoperabiliteit tussen gegevenscatalogi gepubliceerd op het web te vergemakkelijken. Waar nodig worden aanvullende klassen en eigenschappen uit andere bekende vocabulaires hergebruikt.
 <br/>
 <br/>
-verfijning van de terminologie (klassen en eigenschappen) consistent met de semantiek uit de betreffende specificaties met een welbepaald gebruik als doel;
-externe terminologie (klassen en eigenschappen) gebruikt voor nieuwe/extra termen die niet in de bestaande vocabularia voorkomen.
-meer nauwkeurigheid kan worden bereikt door klassen en klasse-attributen (eigenschappen) als verplicht, aanbevolen of optioneel te classificeren voor een bepaalde toepassing
+Het DCAT vocabulaire bestaat uit klassen en eigenschappen.
 <br/>
 <br/>
-Een <b>dataportaal </b>is een op het web gebaseerd systeem dat een gegevenscatalogus bevat waarin datasets worden beschreven met behulp van metadata. Bovendien biedt een dataportaal diensten aan om het vinden en het hergebruik van de datasets te bevorderen en/of te faciliteren.
+<b>Klassen zijn dingen op het internet</b>: Ze hebben niet allemaal een URI, maar het wordt aanbevolen om ze van een URI te voorzien. Het zijn complexe dingen zoals een persoon, een organisatie, een dataset, een website of een downloadbaar databestand.
+<b>Klassen hebben eigenschappen</b>: De eigenschappen zijn de attributen die deze dingen beschrijven. Sommige eigenschappen komen in meer dan één klasse voor, een titel bijvoorbeeld is een veel voorkomend attribuut. Andere eigenschappen zijn zeer gespecialiseerd, zoals een bestandsformaat dat alleen zinvol is voor een gegevensbestand.
+<b>Eigenschappen kunnen eenvoudig of complex zijn</b>: sommige eigenschappen zijn klassen. Een organisatie kan bijvoorbeeld een website hebben. Of een dataset kan een data-uitgever hebben. Over het algemeen kan een klasse herkend worden aan de schrijfwijze: Een property naam begint met een kleine letter zoals dcat:dataset , terwijl een class begint met een hoofdletter zoals dcat:Dataset.
 <br/>
 <br/>
-Een <b>dataset</b> is een zinvolle verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie,en in één of meer formaten beschikbaar of downloadbaar is.
+Klassen en properties worden gebruikt om de metadata op een gestructureerde manier aan te leveren.
+## Overzicht Klassen {#1086A1F8}
+Het volgende diagram geeft een overzicht van de basis functionaliteit van [[DCAT-3.0]]  en dient als startblok voor het begrijpen van de constructie. LET OP, er zijn dus meer klassen, eigenschappen en relaties dan weergegeven zoals te zien in klassen.
 <br/>
 <br/>
-Een dataset is de weerslag van een conceptuele entiteit welke de collectie is van één of meerdere distributies. Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm.
+<span style='background-color: yellow;'>OPTIE. Korte beschrijving alle klasssen + schematische weergave.</span> Of DCAT-AP-3.0 overzicht
+https://semiceu.github.io/DCAT-AP/releases/3.0.0/html/overview.jpg
 <br/>
 <br/>
-Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>. 
-<br/>
-<br/>
-Een <b>AccessPoint</b> is de URL die direct informatie geeft over de service inclusief zijn distributies. Bijvoorbeeld  een capabilities document. 
-<br/>
-<br/>
-Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat metadata verstrekt). 
-<br/>
-<br/>
-Een <b>ontvanger</b> is een gebruiker van gegevens (bijvoorbeeld een toepassing die metadata van een dataportaal verwerkt).
-## Namespaces {#75461667}
-Dit toepassingsprofiel maakt gebruik van de namespaces zoals weergegeven in de onderstaande tabel.`
-<table style='width: 100%;'><caption></caption>
-<colgroup><col id='col1' style='width: 17.648442092886537%;'>
-<col id='col2' style='width: 44.02116402116402%;'>
-<col id='col3' style='width: 38.33039388594944%;'>
-</colgroup>
-<thead valign='top'><tr><th align='left' style='border-top: 0pt none #000000; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #005A9C;'><p id='697D3B67'><b><span style='color: #FFFFFF;'>Prefix</span></b></th>
-<th align='left' style='border-top: 0pt none #000000; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #005A9C;'><p id='045CCEF7'><b><span style='color: #FFFFFF;'>Namespace IRI</span></b></th>
-<th align='left' style='border-top: 0pt none #000000; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #005A9C;'><p id='777C8676'><b><span style='color: #FFFFFF;'>Source</span></b></th>
-</tr>
-</thead>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='39A95254'><span style='color: #000000;'>adms</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='2FC83376'><span style='color: #000000;'>http://www.w3.org/ns/adms#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='2E6B12A1'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>VOCAB-ADMS</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='563CE6F2'><span style='color: #000000;'>dcat</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='7974AA40'><span style='color: #000000;'>http://www.w3.org/ns/dcat#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='0BB45F60'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>VOCAB-DCAT</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='35C5DA0E'><span style='color: #000000;'>dcatap</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='024B2EAB'><span style='color: #000000;'>http://data.europa.eu/r5r/</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='194A18F6'><span style='color: #000000;'>[DCAT-AP-3.0]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='4E95ED97'><span style='color: #000000;'>dct</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='68C8A573'><span style='color: #000000;'>http://purl.org/dc/terms/</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='748026AF'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>DCTERMS</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='36D76E48'><span style='color: #000000;'>dctype</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='01AEA34A'><span style='color: #000000;'>http://purl.org/dc/dcmitype/</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='23BB0D46'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>DCTERMS</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='410965BA'><span style='color: #000000;'>foaf</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='20906AF0'><span style='color: #000000;'>http://xmlns.com/foaf/0.1/</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='5F632EE9'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>FOAF</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='03C28913'><span style='color: #000000;'>locn</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='59115114'><span style='color: #000000;'>http://www.w3.org/ns/locn#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='0860486E'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>LOCN</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='2CD959AF'><span style='color: #000000;'>odrl</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='2952686A'><span style='color: #000000;'>http://www.w3.org/ns/odrl/2/</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='597C7C2E'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>ODRL-VOCAB</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='0DBA15AD'><span style='color: #000000;'>owl</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='36DE333D'><span style='color: #000000;'>http://www.w3.org/2002/07/owl#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='05607724'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>OWL2-SYNTAX</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='5AEB741A'><span style='color: #000000;'>prov</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='15D1DF17'><span style='color: #000000;'>http://www.w3.org/ns/prov#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='2F68406F'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>PROV-O</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='455128AC'><span style='color: #000000;'>rdf</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='55921FA1'><span style='color: #000000;'>http://www.w3.org/1999/02/22-rdf-syntax-ns#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='61D458D3'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>RDF-SYNTAX-GRAMMAR</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='535D85B3'><span style='color: #000000;'>rdfs</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='45DF08A8'><span style='color: #000000;'>http://www.w3.org/2000/01/rdf-schema#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='185BECB3'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>RDF-SCHEMA</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='6AC4BE22'><span style='color: #000000;'>skos</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='18BF0814'><span style='color: #000000;'>http://www.w3.org/2004/02/skos/core#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='73A5A621'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>SKOS-REFERENCE</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='09AA3196'><span style='color: #000000;'>spdx</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='613D0FDF'><span style='color: #000000;'>http://spdx.org/rdf/terms#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='7E96C9AE'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>SPDX</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='73034B03'><span style='color: #000000;'>time</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='6061B331'><span style='color: #000000;'>http://www.w3.org/2006/time#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='1F243771'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>OWL-TIME</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='190B7B64'><span style='color: #000000;'>vcard</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='6889738F'><span style='color: #000000;'>http://www.w3.org/2006/vcard/ns#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #F0F6FF;'><p id='7C2312AE'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>VCARD-RDF</a><span style='color: #000000;'>]</span></td>
-</tr>
-<tr><td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='1049CDF1'><span style='color: #000000;'>xsd</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='7A6E5FD4'><span style='color: #000000;'>http://www.w3.org/2001/XMLSchema#</span></td>
-<td align='left' style='border-top: 0.75pt solid #DDDDDD; border-left: 0pt none #000000; border-bottom: 0pt none #000000; border-right: 0pt none #000000; background-color: #FFFFFF;'><p id='775F3A94'><span style='color: #000000;'>[</span><a href='https://w3c.github.io/dxwg/dcat/' target='_blank'>XMLSCHEMA11-2</a><span style='color: #000000;'>]</span></td>
-</tr>
-</tbody>
-</table>
+<figure><img src='media/image3.svg' alt='Graphic 21501807' style='width: 100%;'></img>
+<figcaption>[[DCAT-3.0]]   in het kort.</figcaption></figure>
 
+## Optionaliteit {#5679FE7C}
+DCAT-AP NL definieert vier niveaus van vereisten voor ontvangers en leveranciers van gegevens. Daarbij geldt dat de niveaus alleen gelden voor de leveranciers. Ontvangers MOETEN altijd in staat zijn om informatie over alle instanties van alle klassen en al hun eigenschappen te verwerken. In de volgende secties worden klassen en eigenschappen aangeduid als "verplicht", "aanbevolen", "optioneel" of conditioneel.. Deze termen hebben de volgende betekenis:
+<br/>
+<br/>
+Verplichte eigenschap: een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken.
+Aanbevolen eigenschap: een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder BEHOORT de informatie voor die eigenschap te verstrekken indien deze beschikbaar is.
+Optionele eigenschap: een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MAG de informatie voor die eigenschap verstrekken, maar is daartoe niet verplicht.
+Conditionele eigenschap: een ontvanger MOET de informatie voor die eigenschap kunnen verwerken; een aanbieder MOET de informatie voor die eigenschap verstrekken, indien de conditie van toepassing is.
+<br/>
+<br/>
+In de gegeven context betekent de term "verwerken" dat ontvangers binnenkomende gegevens MOETEN accepteren en deze gegevens op transparante wijze aan applicaties en diensten moeten leveren. Het impliceert noch schrijft voor wat applicaties en diensten uiteindelijk met de gegevens doen (parseren, converteren, opslaan, doorzoekbaar maken, weergeven aan gebruikers, etc.).
+<br/>
+<br/>
+De termen MOET, BEHOORT en MAG in dit document moeten worden geïnterpreteerd als in <a href='https://www.rfc-editor.org/info/bcp14' target='_blank'>BCP 14</a> [RFC2119] [RFC8174] als, en alleen als deze in hoofdletters zijn weergegeven, zoals hier getoond.
+## Waardelijsten {#14786F8D}
+In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bij de element beschrijving, gehanteerd te worden. Dit zijn vaak de door de EU verplichte waardelijsten. Echter, niet elke waardelijst voorgesteld door DCAT-AP wordt toegepast voor DCAT-AP NL.
+<br/>
+<br/>
+Deze waardelijsten zijn opgenomen in XXXX
+### Thema’s en trefwoorden<b></b> {#71D2AE04}
+Voor het vastleggen van thema's en trefwoorden in de metadata kan het  volgende onderscheid worden gehanteerd;
+<br/>
+<br/>
+dct:subject wordt gebruikt voor onderwerpen, met of zonder URI
+dcat:theme (sub-property of dct:subject) wordt gebruikt voor thema's uit een controlled vocabulary, die een URI hebben
+dcat:keyword wordt gebruikt voor trefwoorden, die niet uit een controlled vocabulary komen en/of geen URI hebben. 
+## Omschrijving eigenschappen {#64A3722D}
+<b>Eigenschap:</b> Dit is de originele engelstalige naam zoals gebruikt in de W3C specificatie van <a href='https://www.w3.org/TR/vocab-dcat-2' target='_blank'><i>[[DCAT-3.0]]</i></a> en  <a href='https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210' target='_blank'><i>[[</i><i>DCAT-AP-3.0</i><i>]] </i></a> 
+<b>Definitie</b>: Dit is de Nederlandstalige definitie van de eigenschap.
+<b>RDF-eigenschap (URI):</b> Dit is de (technische) naam van de eigenschap die van toepassing is voor de uitwisseling van de DCAT data.
+<b>Bereik:</b> Beschrijft de mogelijke waarden van de eigenschap.
+<b>Kardinaliteit</b>: Geeft aan of de eigenschap eigenschap 0, 1 of meerdere keren mag voorkomen. Hierbij wordt gebruik gemaakt van de schrijfwijze <code>x..y</code>, waarbij x het minimaal aantal voorkomens aangeeft en y het maximaal aantal. Bijvoorbeeld <code>1..n</code> geeft aan dat de eigenschap een of meer keer mag voorkomen. 
+<b>Optionaliteit: Geeft aan  of een eigenschap verplicht, aanbevolen, optioneel of conditioneel  is. </b>
+<b>Conditie:</b> Geeft de conditie aan in het geval de optionaliteit Conditioneel is. Bijvoorbeeld HighValueData set. 
+<b>Gebruik / Toepassing (TBD):</b> Geeft instructies omtrent gebruik en achtergrond informatie
+<b>Waardelijst</b>: Verwijzing naar de codelijsten die van toepassing zijn.
+## Ondersteuning voor meertaligheid {#10B7B8F1}
+Eigenschappen als <code>dct:title</code> en  <code>dct:description</code> kunnen waardes in verschillende talen bevatten. Voor elke vertaling wordt de eigenschap herhaalt met de toevoeging van een language tag om aan te geven in welke taal de waarde geschreven is. Elke taal mag slechts één keer voorkomen.
