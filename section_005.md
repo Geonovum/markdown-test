@@ -178,7 +178,33 @@ Een activiteit die de creatie van de dataset heeft gegenereerd of de zakelijke c
 Onderstaand voorbeeld beschrijft een <code>dcat:Dataset</code> met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>dcat:Dataset</code>.
 <br/>
 <br/>
-<aside class='example'><p class='space-after' id='5F0114C7'>Voorbeeld 1: Minimale set van eigenschappen<pre class="text">&lt;https:∕∕data.overheid.nl∕dataset∕verkiezingsuitslag-tweede-kamer-2021&gt;a dcat:Dataset;    dct:identifier &lt;https://data.overheid.nl/dataset/verkiezingsuitslag-tweede-kamer-2021&gt;;    dct:title "Verkiezingsuitslag Tweede Kamer 2021"@nl;    dct:description "De dataset bevat de uitslagen van de verkiezing voor de Tweede Kamer van 17 maart 2021. De data is beschikbaar gesteld in EML formaat. De Kiesraad biedt geen ondersteuning voor het gebruik van het formaat. Bestemmingspagina: https://www.kiesraad.nl/verkiezingen/osv-en-eml/eml-standaard"@nl;    dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;;    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/Kiesraad&gt;;    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/Kiesraad&gt;;    dcat:contactPoint [a vcard:Organization ;        vcard:fn "Kiesraad";        vcard:hasEmail "kiesraad@kiesraad.nl";        ];    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Parlement&gt;;.</pre>
+<aside class='example'><p class='space-after' id='5F0114C7'>Voorbeeld 1: Minimale set van eigenschappen<pre class="text">&lt;https:∕∕data.overheid.nl∕dataset∕verkiezingsuitslag-tweede-kamer-2021&gt;</pre>
+
+a dcat:Dataset;</pre>
+
+    dct:identifier &lt;https://data.overheid.nl/dataset/verkiezingsuitslag-tweede-kamer-2021&gt;;</pre>
+
+    dct:title "Verkiezingsuitslag Tweede Kamer 2021"@nl;</pre>
+
+    dct:description "De dataset bevat de uitslagen van de verkiezing voor de Tweede Kamer van 17 maart 2021. De data is beschikbaar gesteld in EML formaat. De Kiesraad biedt geen ondersteuning voor het gebruik van het formaat. Bestemmingspagina: https://www.kiesraad.nl/verkiezingen/osv-en-eml/eml-standaard"@nl;</pre>
+
+    dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;;</pre>
+
+    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/Kiesraad&gt;;</pre>
+
+    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/Kiesraad&gt;;</pre>
+
+    dcat:contactPoint [a vcard:Organization ;</pre>
+
+        vcard:fn "Kiesraad";</pre>
+
+        vcard:hasEmail "kiesraad@kiesraad.nl";</pre>
+
+        ];</pre>
+
+    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Parlement&gt;;</pre>
+
+.</pre>
 
 </aside>
 
@@ -186,12 +212,52 @@ Onderstaand voorbeeld beschrijft een <code>dcat:Dataset</code> met enkel de verp
 TODO: Access rights, licentie, vertaling, legal foundation.
 <br/>
 <br/>
-<aside class='example'><p id='128E62B0'>Voorbeeld 2: Minimale set van eigenschappen<pre class="text">&lt;https:∕∕data.overheid.nl∕dataset∕reisdocumenten--registers&gt;a dcat:Dataset;    dct:identifier &lt;https://data.overheid.nl/dataset/reisdocumenten--registers&gt;;    dct:title "Reisdocumenten, registers"@nl;    dct:title "Reisdocumenten, registers"@en;    dct:description "Basisregister reisdocumenten (BRR), verificatieregister (VR), Register. Deze dataset is niet beschikbaar voor hergebruik. De reden hiervoor is benoemd in art. 10 van de Wet Openbaarheid Bestuur: ‘De eerbiediging van de persoonlijke levenssfeer’"@nl;    dct:license &lt;http://standaarden.overheid.nl/owms/terms/geslotenlicentie&gt;;    dct:accessRights &lt;placeholder/PRIVACY&gt;;    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/rvig&gt;;    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/rvig&gt;;    dcat:contactPoint [a vcard:Organization ;        vcard:fn "Rijksdienst voor Identiteitsgegevens";        vcard:hasEmail "info@rvig.nl";        ];    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Bestuur&gt;;.</pre>
+<aside class='example'><p id='128E62B0'>Voorbeeld 2: Minimale set van eigenschappen<pre class="text">&lt;https:∕∕data.overheid.nl∕dataset∕reisdocumenten--registers&gt;</pre>
+
+a dcat:Dataset;</pre>
+
+    dct:identifier &lt;https://data.overheid.nl/dataset/reisdocumenten--registers&gt;;</pre>
+
+    dct:title "Reisdocumenten, registers"@nl;</pre>
+
+    dct:title "Reisdocumenten, registers"@en;</pre>
+
+    dct:description "Basisregister reisdocumenten (BRR), verificatieregister (VR), Register. Deze dataset is niet beschikbaar voor hergebruik. De reden hiervoor is benoemd in art. 10 van de Wet Openbaarheid Bestuur: ‘De eerbiediging van de persoonlijke levenssfeer’"@nl;</pre>
+
+    dct:license &lt;http://standaarden.overheid.nl/owms/terms/geslotenlicentie&gt;;</pre>
+
+    dct:accessRights &lt;placeholder/PRIVACY&gt;;</pre>
+
+    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/rvig&gt;;</pre>
+
+    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/rvig&gt;;</pre>
+
+    dcat:contactPoint [a vcard:Organization ;</pre>
+
+        vcard:fn "Rijksdienst voor Identiteitsgegevens";</pre>
+
+        vcard:hasEmail "info@rvig.nl";</pre>
+
+        ];</pre>
+
+    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Bestuur&gt;;</pre>
+
+.</pre>
 
 </aside>
 
 #### Temporal coverage {#0E754346}
-<aside class='example'><p id='56D783F4'>Voorbeeld 3: Temporal coverage<p id='7DCF2ABB'>Voorbeeld <a href='file:///C:\Users\g.wolbers\Desktop\(https:\www.w3.org\TR\vocab-dcat-2\' target='_blank'>overgenomen van het W3C</a>:<pre class="text">&lt;ds257&gt; a dcat:Dataset ;    dct:temporal [ a dct:PeriodOfTime ;    dcat:startDate "2016-03-04"^^xsd:date ;    dcat:endDate   "2018-08-05"^^xsd:date ;    ].</pre>
+<aside class='example'><p id='56D783F4'>Voorbeeld 3: Temporal coverage<p id='7DCF2ABB'>Voorbeeld <a href='file:///C:\Users\g.wolbers\Desktop\(https:\www.w3.org\TR\vocab-dcat-2\' target='_blank'>overgenomen van het W3C</a>:<pre class="text">&lt;ds257&gt; a dcat:Dataset ;</pre>
+
+    dct:temporal [ a dct:PeriodOfTime ;</pre>
+
+    dcat:startDate "2016-03-04"^^xsd:date ;</pre>
+
+    dcat:endDate   "2018-08-05"^^xsd:date ;</pre>
+
+    ]</pre>
+
+.</pre>
 
 </aside>
 
@@ -448,23 +514,69 @@ INVOEGEN: voorbeeld
 ### Voorbeelden {#7999E48E}
 #### Minimale set van eigenschappen {#1FE21067}
 Onderstaand voorbeeld beschrijft een <code>dcat:Distribution</code> met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>dcat:Distribution</code>.
-<aside class='example'><p id='428CE144'>Voorbeeld 4: Minimale set van eigenschappen<pre class="text">&lt;ScoreLeefbaarometerBuurt2020&gt; a dcat:Distribution ;    dcat:accessURL &lt;https:∕∕data.overheid.nl∕sites∕default∕files∕dataset∕f37c3649-cc52-4e48-a864-870ae42807a2∕resources∕Leefbaarometer%203.0%20-%20meting%202020%20-%20scores%20buurt.csv&gt; ;    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕CSV&gt; ;    dct:title "Score Leefbaarometer Buurt 2020"@nl;    dct:description "Scores (stand en ontwikkeling) leefbaarheid op buurtniveau 2002-2008-2012-2014-2016-2018-2020"@nl;    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;.</pre>
+<aside class='example'><p id='428CE144'>Voorbeeld 4: Minimale set van eigenschappen<pre class="text">&lt;ScoreLeefbaarometerBuurt2020&gt; a dcat:Distribution ;</pre>
+
+    dcat:accessURL &lt;https:∕∕data.overheid.nl∕sites∕default∕files∕dataset∕f37c3649-cc52-4e48-a864-870ae42807a2∕resources∕Leefbaarometer%203.0%20-%20meting%202020%20-%20scores%20buurt.csv&gt; ;</pre>
+
+    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕CSV&gt; ;</pre>
+
+    dct:title "Score Leefbaarometer Buurt 2020"@nl;</pre>
+
+    dct:description "Scores (stand en ontwikkeling) leefbaarheid op buurtniveau 2002-2008-2012-2014-2016-2018-2020"@nl;</pre>
+
+    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;</pre>
+
+.</pre>
 
 </aside>
 
 #### Distributie van een collectie van bestanden {#10F32466}
-<aside class='example'><p id='217C38A6'>Voorbeeld 5: Distributie van een collectie van bestanden<pre class="text">&lt;ScoreLeefbaarometerBuurt2020&gt; a dcat:Distribution ;    dcat:accessURL &lt;https:∕∕data.overheid.nl∕sites∕default∕files∕dataset∕f37c3649-cc52-4e48-a864-870ae42807a2∕resources∕Leefbaarometer%203.0%20-%20meting%202020%20-%20scores%20buurt.csv&gt; ;    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕PDF&gt; ;    dct:title "Score Leefbaarometer Buurt 2020"@nl;    dct:description "Scores (stand en ontwikkeling) leefbaarheid op buurtniveau 2002-2008-2012-2014-2016-2018-2020"@nl;    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;.</pre>
+<aside class='example'><p id='217C38A6'>Voorbeeld 5: Distributie van een collectie van bestanden<pre class="text">&lt;ScoreLeefbaarometerBuurt2020&gt; a dcat:Distribution ;</pre>
+
+    dcat:accessURL &lt;https:∕∕data.overheid.nl∕sites∕default∕files∕dataset∕f37c3649-cc52-4e48-a864-870ae42807a2∕resources∕Leefbaarometer%203.0%20-%20meting%202020%20-%20scores%20buurt.csv&gt; ;</pre>
+
+    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕PDF&gt; ;</pre>
+
+    dct:title "Score Leefbaarometer Buurt 2020"@nl;</pre>
+
+    dct:description "Scores (stand en ontwikkeling) leefbaarheid op buurtniveau 2002-2008-2012-2014-2016-2018-2020"@nl;</pre>
+
+    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;</pre>
+
+.</pre>
 
 </aside>
 
 #### Documentatie als op zichzelf staande distributie {#27583548}
 TODO: Supportring Role
-<aside class='example'><p id='6BBF66DD'>Voorbeeld 6: Documentatie als op zichzelf staande distributie<pre class="text">&lt;LeefbaarometerDocumentatie2020&gt; a dcat:Distribution ;    dcat:accessURL &lt;https:∕∕data.overheid.nl∕OpenDataSets∕leefbaarometer∕lbom.zip&gt; ;    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕ZIP&gt; ;    dct:title "Score Leefbaarometer Grid 2020"@nl;    dct:description "Scores (stand en ontwikkeling) leefbaarheid op gridniveau 2002-2008-2012-2014-2016-2018-2020. Let op: dit zip bestand bevat zowel de datasets op Gemeente-, Wijk-, Buurt-, PC4- en Grid niveau."@nl;    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;    donl:supportingRole.</pre>
+<aside class='example'><p id='6BBF66DD'>Voorbeeld 6: Documentatie als op zichzelf staande distributie<pre class="text">&lt;LeefbaarometerDocumentatie2020&gt; a dcat:Distribution ;</pre>
+
+    dcat:accessURL &lt;https:∕∕data.overheid.nl∕OpenDataSets∕leefbaarometer∕lbom.zip&gt; ;</pre>
+
+    dct:format &lt;http:∕∕publications.europa.eu∕resource∕authority∕file-type∕ZIP&gt; ;</pre>
+
+    dct:title "Score Leefbaarometer Grid 2020"@nl;</pre>
+
+    dct:description "Scores (stand en ontwikkeling) leefbaarheid op gridniveau 2002-2008-2012-2014-2016-2018-2020. Let op: dit zip bestand bevat zowel de datasets op Gemeente-, Wijk-, Buurt-, PC4- en Grid niveau."@nl;</pre>
+
+    dct:license &lt;http:∕∕creativecommons.org∕publicdomain∕zero∕1.0∕deed.nl&gt;;</pre>
+
+    donl:supportingRole</pre>
+
+.</pre>
 
 </aside>
 
 #### Checksum {#6F79D929}
-<aside class='example'><p id='1298BE25'>Voorbeeld 7: Checksum<pre class="text">spdx:checksum [ a spdx:checksum ;    spdx:algorithm &lt;http:∕∕spdx.org∕rdf∕terms#checksumAlgorithm_sha1&gt; ;    spdx:checksumValue "85ed0817af83a24ad8da68c2b5094de69833983c" ;    ];.</pre>
+<aside class='example'><p id='1298BE25'>Voorbeeld 7: Checksum<pre class="text">spdx:checksum [ a spdx:checksum ;</pre>
+
+    spdx:algorithm &lt;http:∕∕spdx.org∕rdf∕terms#checksumAlgorithm_sha1&gt; ;</pre>
+
+    spdx:checksumValue "85ed0817af83a24ad8da68c2b5094de69833983c" ;</pre>
+
+    ];</pre>
+
+.</pre>
 
 </aside>
 
@@ -513,20 +625,78 @@ INVOEGEN: voorbeeld
 Naast de onderstaande voorbeelden, biedt het W3C enkele voorbeelden aan van hoe een <code>dcat:DataService</code> eruit ziet op <a href='https://www.w3.org/TR/vocab-dcat-2/' target='_blank'>www.w3.org/TR/vocab-dcat-2/#examples-data-service</a>.
 #### Minimale set van eigenschappen {#0C0FA1D8}
 Onderstaand voorbeeld beschrijft een <code>dcat:DataService</code> met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>dcat:DataService</code>.
-<aside class='example'><p id='4048F41E'>Voorbeeld 8: Minimale set van eigenschappen<pre class="text">&lt;OData/v4/2.0&gt; a dcat:DataService;    dct:identifier &lt;OData/v4/2.0&gt;;    dct:title "OData API"@nl;    dct:description "Gebruik de OData API voor het opvragen van data met een zelfopgestelde zoekvraag in de vorm van een URL (query). De OData API levert de data in het machineleesbare bestandsformaat JSON."@nl;    dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;;    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal&gt;;    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal&gt;;    dcat:contactPoint [a vcard:Organization ;        vcard:fn "Tweede Kamer der Staten-Generaal";        vcard:hasEmail "opendata@tweedekamer.nl";];    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Parlement&gt;;    dcat:endpointURL &lt;https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0&gt;;    dcat:endpointDescription &lt;https://opendata.tweedekamer.nl/documentatie/odata-api&gt;;.</pre>
+<aside class='example'><p id='4048F41E'>Voorbeeld 8: Minimale set van eigenschappen<pre class="text">&lt;OData/v4/2.0&gt; a dcat:DataService;</pre>
+
+    dct:identifier &lt;OData/v4/2.0&gt;;</pre>
+
+    dct:title "OData API"@nl;</pre>
+
+    dct:description "Gebruik de OData API voor het opvragen van data met een zelfopgestelde zoekvraag in de vorm van een URL (query). De OData API levert de data in het machineleesbare bestandsformaat JSON."@nl;</pre>
+
+    dct:license &lt;http://creativecommons.org/publicdomain/zero/1.0/deed.nl&gt;;</pre>
+
+    dct:creator &lt;http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal&gt;;</pre>
+
+    dct:publisher &lt;http://standaarden.overheid.nl/owms/terms/Tweede_Kamer_der_Staten-Generaal&gt;;</pre>
+
+    dcat:contactPoint [a vcard:Organization ;</pre>
+
+        vcard:fn "Tweede Kamer der Staten-Generaal";</pre>
+
+        vcard:hasEmail "opendata@tweedekamer.nl";</pre>
+
+];</pre>
+
+    dcat:theme &lt;http://standaarden.overheid.nl/owms/terms/Parlement&gt;;</pre>
+
+    dcat:endpointURL &lt;https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0&gt;;</pre>
+
+    dcat:endpointDescription &lt;https://opendata.tweedekamer.nl/documentatie/odata-api&gt;;</pre>
+
+.</pre>
 
 </aside>
 
 #### Een DataService die Datasets ontsluit {#4EEF88C5}
 De gemeente Nijmegen heeft een publiek beschikbare <code>OGC:WMS</code> webservice waarmee de gemeente gemaakte luchtfoto's aanbiedt. Een van de aangeboden luchtfoto's is de "Luchtfoto 2022" (De gemeente maakt jaarlijks luchtfoto's). Deze luchtfoto's kunnen individueel (of als bundel) als dataset aangeboden worden. De behoefte bestaat om de relaties tussen de dataset en de webservice duidelijk vast te leggen.
 Dit voorbeeld uit zich in de volgende RDF (niet relevante eigenschappen zijn weggelaten):
-<aside class='example'><p id='47EA093D'>Voorbeeld 9: Een DataService die Datasets ontsluit<pre class="text">&lt;https:∕∕opendata.nijmegen.nl∕dataset∕luchtfoto-2022&gt; a dcat:Dataset;    dct:title "Luchtfoto 2022"@nl ;    dcat:distribution &lt;odn.luchtfoto-2022.distribution.1&gt; ;    dcat:distribution &lt;odn.luchtfoto-2022.distribution.2&gt; ;</pre>
+<aside class='example'><p id='47EA093D'>Voorbeeld 9: Een DataService die Datasets ontsluit<pre class="text">&lt;https:∕∕opendata.nijmegen.nl∕dataset∕luchtfoto-2022&gt; a dcat:Dataset;</pre>
 
-<pre class="text">&lt;odn.luchtfoto-2022.distribution.1&gt; [ a dcat:Distribution ;    dct:title "Lage resolutie"@nl ;    dcat:accessURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&service=WMS&version=1.3.0&request=GetMap&layers=Luchtfoto2022.ecw&styles=default&transparent=true&CRS=EPSG:28992&bbox=176999.975,420000.025,191999.975,435500.025&width=750&height=775&format=image∕png&gt;;    dcat:accessService &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt;;    ];</pre>
+    dct:title "Luchtfoto 2022"@nl ;</pre>
 
-<pre class="text">&lt;odn.luchtfoto-2022.distribution.2&gt; [ a dcat:Distribution ;    dct:title "Hoge resolutie"@nl ;    dcat:accessURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&service=WMS&version=1.3.0&request=GetMap&layers=Luchtfoto2022.ecw&styles=default&transparent=true&CRS=EPSG:28992&bbox=176999.975,420000.025,191999.975,435500.025&width=3000&height=3100&format=image∕png&gt; ;    dcat:accessService &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt; ;    ];</pre>
+    dcat:distribution &lt;odn.luchtfoto-2022.distribution.1&gt; ;</pre>
 
-<pre class="text">&lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt; [ a dcat:DataService ;    dcat:endpointURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&request=getCapabilities&service=WMS&gt; ;    rdf:servesDataset &lt;https:∕∕opendata.nijmegen.nl∕dataset∕luchtfoto-2022&gt; ;    ];.</pre>
+    dcat:distribution &lt;odn.luchtfoto-2022.distribution.2&gt; ;</pre>
+
+<pre class="text">&lt;odn.luchtfoto-2022.distribution.1&gt; [ a dcat:Distribution ;</pre>
+
+    dct:title "Lage resolutie"@nl ;</pre>
+
+    dcat:accessURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&service=WMS&version=1.3.0&request=GetMap&layers=Luchtfoto2022.ecw&styles=default&transparent=true&CRS=EPSG:28992&bbox=176999.975,420000.025,191999.975,435500.025&width=750&height=775&format=image∕png&gt;;</pre>
+
+    dcat:accessService &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt;;</pre>
+
+    ];</pre>
+
+<pre class="text">&lt;odn.luchtfoto-2022.distribution.2&gt; [ a dcat:Distribution ;</pre>
+
+    dct:title "Hoge resolutie"@nl ;</pre>
+
+    dcat:accessURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&service=WMS&version=1.3.0&request=GetMap&layers=Luchtfoto2022.ecw&styles=default&transparent=true&CRS=EPSG:28992&bbox=176999.975,420000.025,191999.975,435500.025&width=3000&height=3100&format=image∕png&gt; ;</pre>
+
+    dcat:accessService &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt; ;</pre>
+
+    ];</pre>
+
+<pre class="text">&lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto&gt; [ a dcat:DataService ;</pre>
+
+    dcat:endpointURL &lt;https:∕∕services.nijmegen.nl∕geoservices∕wms∕extern_Luchtfoto?&request=getCapabilities&service=WMS&gt; ;</pre>
+
+    rdf:servesDataset &lt;https:∕∕opendata.nijmegen.nl∕dataset∕luchtfoto-2022&gt; ;</pre>
+
+    ];</pre>
+
+.</pre>
 
 </aside>
 
@@ -667,28 +837,100 @@ De <a href='https://www.koopoverheid.nl/standaarden/juriconnect' target='_blank'
 ### Voorbeelden {#2DEEA517}
 #### Minimale set van eigenschappen {#37401F13}
 Onderstaand voorbeeld beschrijft een <code>donl:LegalFoundation</code> met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <code>donl:LegalFoundation</code>.
-<aside class='example'><p id='349D8C11'>Voorbeeld 13: Minimale set van eigenschappen<pre class="text">ex:myLegalFoundation a donl:LegalFoundation;    dct:title "Wet BAG"@nl ;    foaf:homepage "https://wetten.overheid.nl/"^^xsd:anyURI ;    donl:juriconnectCode "jci1.3:c:BWBR0023466&z=2022-05-01&g=2022-05-01" ;.</pre>
+<aside class='example'><p id='349D8C11'>Voorbeeld 13: Minimale set van eigenschappen<pre class="text">ex:myLegalFoundation a donl:LegalFoundation;</pre>
+
+    dct:title "Wet BAG"@nl ;</pre>
+
+    foaf:homepage "https://wetten.overheid.nl/"^^xsd:anyURI ;</pre>
+
+    donl:juriconnectCode "jci1.3:c:BWBR0023466&z=2022-05-01&g=2022-05-01" ;</pre>
+
+.</pre>
 
 </aside>
 
 Webapplicaties zouden bovenstaande voorbeeld kunnen vertalen naar:
-<pre class="text">&lt;a href="https://wetten.overheid.nl/jci1.3:c:BWBR0023466&z=2022-05-01&g=2022-05-01"&gt;    Wet BAG&lt;/a&gt;</pre>
+<pre class="text">&lt;a href="https://wetten.overheid.nl/jci1.3:c:BWBR0023466&z=2022-05-01&g=2022-05-01"&gt;</pre>
+
+    Wet BAG</pre>
+
+&lt;/a&gt;</pre>
 
 ### Voorbeelden {#3DD867E3}
 #### Contact point {#321633BA}
-<aside class='example'><p id='769C6BD5'>Voorbeeld 10: Contact point<pre class="text">&lt;https:∕∕data.overheid.nl∕ondersteuning∕algemeen∕contact&gt;    a dcat:Dataset;    dcat:contactPoint [a vcard:Organization ;    vcard:fn "data.overheid.nl";    vcard:hasEmail "data@koop.overheid.nl";    vcard:hasTelephone [        a vcard:Work,        vcard:Voice;        vcard:hasValue &lt;tel:31707000526&gt;        ];    vcard:hasURL "data.overheid.nl";    ];.</pre>
+<aside class='example'><p id='769C6BD5'>Voorbeeld 10: Contact point<pre class="text">&lt;https:∕∕data.overheid.nl∕ondersteuning∕algemeen∕contact&gt;</pre>
+
+    a dcat:Dataset;</pre>
+
+    dcat:contactPoint [a vcard:Organization ;</pre>
+
+    vcard:fn "data.overheid.nl";</pre>
+
+    vcard:hasEmail "data@koop.overheid.nl";</pre>
+
+    vcard:hasTelephone [</pre>
+
+        a vcard:Work,</pre>
+
+        vcard:Voice;</pre>
+
+        vcard:hasValue &lt;tel:31707000526&gt;</pre>
+
+        ];</pre>
+
+    vcard:hasURL "data.overheid.nl";</pre>
+
+    ];</pre>
+
+.</pre>
 
 </aside>
 
 #### Other identifier {#066F5878}
-<aside class='example'><p id='0226A428'>Voorbeeld 11: Other identifier<pre class="text">&lt;GBI.WELZ_CULTHIS_AMK_V&gt; a dcat:Dataset;    dct:identifier &lt;https:∕∕kaartportaal.drenthe.nl/portal/home/item.html?id=41b396ac19754bc4a414ababe0773e03&gt;;    adms:Identifier [a adms:Identifier ;        skos:notation "https:∕∕data.overheid.nl/dataset/2bd6eae9-3192-4e0f-a89b-c8d6b64d241f"^^xsd:anyURI;        dct:creator &lt;https:∕∕data.overheid.nl/organisatie/koop&gt;;    ];.</pre>
+<aside class='example'><p id='0226A428'>Voorbeeld 11: Other identifier<pre class="text">&lt;GBI.WELZ_CULTHIS_AMK_V&gt; a dcat:Dataset;</pre>
+
+    dct:identifier &lt;https:∕∕kaartportaal.drenthe.nl/portal/home/item.html?id=41b396ac19754bc4a414ababe0773e03&gt;;</pre>
+
+    adms:Identifier [a adms:Identifier ;</pre>
+
+        skos:notation "https:∕∕data.overheid.nl/dataset/2bd6eae9-3192-4e0f-a89b-c8d6b64d241f"^^xsd:anyURI;</pre>
+
+        dct:creator &lt;https:∕∕data.overheid.nl/organisatie/koop&gt;;</pre>
+
+    ];</pre>
+
+.</pre>
 
 </aside>
 
 #### Qualified attribution {#4CEB062A}
 TODO: Syntax en inhoud.
 Voorbeeld overgenomen van <a href='https://www.w3.org/TR/vocab-dcat-2/' target='_blank'>W3C</a>
-<aside class='example'><p id='2DA9E747'>Voorbeeld 12: Qualified attribution<pre class="text">ex:DS987a dcat:Dataset ;    prov:qualifiedAttribution [        a prov:Attribution ;        prov:agent &lt;https://www.ala.org.au/&gt; ;        dcat:hadRole &lt;http://registry.it.csiro.au/def/isotc211/CI_RoleCode/distributor&gt;    ] ;    prov:qualifiedAttribution [        a prov:Attribution ;        prov:agent &lt;https://www.education.gov.au/&gt; ;        dcat:hadRole &lt;http://registry.it.csiro.au/def/isotc211/CI_RoleCode/funder&gt;    ] ;.</pre>
+<aside class='example'><p id='2DA9E747'>Voorbeeld 12: Qualified attribution<pre class="text">ex:DS987</pre>
+
+a dcat:Dataset ;</pre>
+
+    prov:qualifiedAttribution [</pre>
+
+        a prov:Attribution ;</pre>
+
+        prov:agent &lt;https://www.ala.org.au/&gt; ;</pre>
+
+        dcat:hadRole &lt;http://registry.it.csiro.au/def/isotc211/CI_RoleCode/distributor&gt;</pre>
+
+    ] ;</pre>
+
+    prov:qualifiedAttribution [</pre>
+
+        a prov:Attribution ;</pre>
+
+        prov:agent &lt;https://www.education.gov.au/&gt; ;</pre>
+
+        dcat:hadRole &lt;http://registry.it.csiro.au/def/isotc211/CI_RoleCode/funder&gt;</pre>
+
+    ] ;</pre>
+
+.</pre>
 
 </aside>
 
