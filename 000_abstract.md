@@ -19,6 +19,6 @@ Het Nederlandse profiel voor DCAT is niet statisch. Dit document wordt daarom on
 
 TEST
 
-{include} 007_chapter.md
+![[007_chapter.md]]
 
 TEST
