@@ -10,7 +10,7 @@ INVOEGEN SHACL TABEL: Normatief Tabel met overzicht alle propertjes per klasse.
 <br/>
 <br/>
 INVOEGEN: voorbeeld
-<section data-include-format='markdown' data-include='081-endpoint_URL_nieuw.md'/>
-<section data-include-format='markdown' data-include='082-endpoint_description.md'/>
-<section data-include-format='markdown' data-include='083-serves_dataset.md'/>
-<section data-include-format='markdown' data-include='084-Voorbeelden.md'/>
+<section data-include-format='markdown' data-include='081-endpoint_URL_nieuw.md'></section>
+<section data-include-format='markdown' data-include='082-endpoint_description.md'></section>
+<section data-include-format='markdown' data-include='083-serves_dataset.md'></section>
+<section data-include-format='markdown' data-include='084-Voorbeelden.md'></section>

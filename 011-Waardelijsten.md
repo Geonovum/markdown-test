@@ -3,4 +3,4 @@ In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bi
 <br/>
 <br/>
 Deze waardelijsten zijn opgenomen in XXXX
-<section data-include-format='markdown' data-include='011-Themas_en_trefwoorden.md'/>
+<section data-include-format='markdown' data-include='011-Themas_en_trefwoorden.md'></section>
