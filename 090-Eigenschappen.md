@@ -39,6 +39,6 @@ In de onderstaande tabel worden de eigenschappen van de <code>donl:LegalFoundati
 </tbody>
 </table>
 
-<section data-include-format='markdown' data-include='088-title.md'></section>
-<section data-include-format='markdown' data-include='089-legal_domain.md'></section>
-<section data-include-format='markdown' data-include='090-juriconnect_code.md'></section>
+<section data-include-format='markdown' data-include='091-title.md'></section>
+<section data-include-format='markdown' data-include='092-legal_domain.md'></section>
+<section data-include-format='markdown' data-include='093-juriconnect_code.md'></section>

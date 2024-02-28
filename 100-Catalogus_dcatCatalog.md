@@ -17,8 +17,8 @@ INVOEGEN: voorbeeld
 <ul><li>Wanneer is een catalogus een <a href='https://www.w3.org/TR/vocab-dcat-2/' target='_blank'>dcat:Catalog</a>?</li>
 <li>Wanneer is een catalogus een <a href='https://www.w3.org/TR/vocab-dcat-2/' target='_blank'>dcat:Dataset</a>?</li>
 </ul>
-<section data-include-format='markdown' data-include='099-homepage.md'></section>
-<section data-include-format='markdown' data-include='100-dataset.md'></section>
-<section data-include-format='markdown' data-include='101-service.md'></section>
-<section data-include-format='markdown' data-include='102-catalog.md'></section>
-<section data-include-format='markdown' data-include='103-themes.md'></section>
+<section data-include-format='markdown' data-include='101-homepage.md'></section>
+<section data-include-format='markdown' data-include='102-dataset.md'></section>
+<section data-include-format='markdown' data-include='103-service.md'></section>
+<section data-include-format='markdown' data-include='104-catalog.md'></section>
+<section data-include-format='markdown' data-include='105-themes.md'></section>

@@ -10,20 +10,20 @@ INVOEGEN SHACL TABEL: Normatief Tabel met overzicht alle propertjes per klasse.
 <br/>
 <br/>
 INVOEGEN: voorbeeld
-<section data-include-format='markdown' data-include='059-accessURL.md'></section>
-<section data-include-format='markdown' data-include='060-format.md'></section>
-<section data-include-format='markdown' data-include='061-title.md'></section>
-<section data-include-format='markdown' data-include='062-description.md'></section>
-<section data-include-format='markdown' data-include='063-license.md'></section>
-<section data-include-format='markdown' data-include='064-accessService_nieuw.md'></section>
-<section data-include-format='markdown' data-include='065-downloadURL.md'></section>
-<section data-include-format='markdown' data-include='066-modified.md'></section>
-<section data-include-format='markdown' data-include='067-issued.md'></section>
-<section data-include-format='markdown' data-include='068-language.md'></section>
-<section data-include-format='markdown' data-include='069-rights.md'></section>
-<section data-include-format='markdown' data-include='070-byteSize.md'></section>
-<section data-include-format='markdown' data-include='071-conformsTo_.md'></section>
-<section data-include-format='markdown' data-include='072-mediaType.md'></section>
-<section data-include-format='markdown' data-include='073-checksum.md'></section>
-<section data-include-format='markdown' data-include='074-documentation.md'></section>
-<section data-include-format='markdown' data-include='075-Voorbeelden.md'></section>
+<section data-include-format='markdown' data-include='061-accessURL.md'></section>
+<section data-include-format='markdown' data-include='062-format.md'></section>
+<section data-include-format='markdown' data-include='063-title.md'></section>
+<section data-include-format='markdown' data-include='064-description.md'></section>
+<section data-include-format='markdown' data-include='065-license.md'></section>
+<section data-include-format='markdown' data-include='066-accessService_nieuw.md'></section>
+<section data-include-format='markdown' data-include='067-downloadURL.md'></section>
+<section data-include-format='markdown' data-include='068-modified.md'></section>
+<section data-include-format='markdown' data-include='069-issued.md'></section>
+<section data-include-format='markdown' data-include='070-language.md'></section>
+<section data-include-format='markdown' data-include='071-rights.md'></section>
+<section data-include-format='markdown' data-include='072-byteSize.md'></section>
+<section data-include-format='markdown' data-include='073-conformsTo_.md'></section>
+<section data-include-format='markdown' data-include='074-mediaType.md'></section>
+<section data-include-format='markdown' data-include='075-checksum.md'></section>
+<section data-include-format='markdown' data-include='076-documentation.md'></section>
+<section data-include-format='markdown' data-include='077-Voorbeelden.md'></section>

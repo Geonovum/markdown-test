@@ -26,4 +26,4 @@ Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat 
 <br/>
 <br/>
 Een <b>ontvanger</b> is een gebruiker van gegevens (bijvoorbeeld een toepassing die metadata van een dataportaal verwerkt).
-<section data-include-format='markdown' data-include='006-Namespaces.md'></section>
+<section data-include-format='markdown' data-include='007-Namespaces.md'></section>

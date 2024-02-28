@@ -9,6 +9,6 @@ In DCAT worden klassen en eigenschappen van andere gevestigde vocabulaires (ADMS
 <br/>
 <br/>
 Dit document beschrijft het Nederlandse applicatieprofiel op [[DCAT-AP-3.0]]. Dit Nederlandse applicatieprofiel - DCAT-AP NL- beantwoordt de vraag over hoe [[DCAT-AP-3.0]] in de praktijk wordt toegepast Nederland.
-<section data-include-format='markdown' data-include='002-Uitgangspunten.md'></section>
-<section data-include-format='markdown' data-include='003-Relatie_andere_profielen.md'></section>
-<section data-include-format='markdown' data-include='004-Normatieve_verwijzingen.md'></section>
+<section data-include-format='markdown' data-include='003-Uitgangspunten.md'></section>
+<section data-include-format='markdown' data-include='004-Relatie_andere_profielen.md'></section>
+<section data-include-format='markdown' data-include='005-Normatieve_verwijzingen.md'></section>
