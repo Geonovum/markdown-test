@@ -42,7 +42,7 @@ In de metadata dienen de waarden uit de waardelijsten waarnaar verwezen wordt bi
 <br/>
 <br/>
 Deze waardelijsten zijn opgenomen in XXXX
-### Thema’s en trefwoorden<b></b> {#71D2AE04}
+### Thema’s en trefwoorden {#71D2AE04}
 Voor het vastleggen van thema's en trefwoorden in de metadata kan het  volgende onderscheid worden gehanteerd;
 <br/>
 <br/>
