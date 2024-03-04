@@ -1,4 +1,4 @@
-# Termen en Definities {#7001826E}
+# Termen en definities {#7001826E}
 Een <b>applicatieprofiel</b> is een specificatie voor gegevensuitwisseling dat bijkomende beperkingen introduceert voor het toepassen van vocabularia. Dergelijke bijkomende beperkingen kunnen de volgende elementen bevatten:
 <br/>
 <br/>
@@ -10,7 +10,7 @@ meer nauwkeurigheid kan worden bereikt door klassen en klasse-attributen (eigens
 Een <b>dataportaal </b>is een op het web gebaseerd systeem dat een gegevenscatalogus bevat waarin datasets worden beschreven met behulp van metadata. Bovendien biedt een dataportaal diensten aan om het vinden en het hergebruik van de datasets te bevorderen en/of te faciliteren.
 <br/>
 <br/>
-Een <b>dataset</b> is een zinvolle verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie,en in één of meer formaten beschikbaar of downloadbaar is.
+Een <b>dataset</b> is een zinvolle verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één  in één of meer formaten beschikbaar of downloadbaar is.
 <br/>
 <br/>
 Een dataset is de weerslag van een conceptuele entiteit welke de collectie is van één of meerdere distributies. Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm.
@@ -19,7 +19,7 @@ Een dataset is de weerslag van een conceptuele entiteit welke de collectie is va
 Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>. 
 <br/>
 <br/>
-Een <b>AccessPoint</b> is de URL die direct informatie geeft over de service inclusief zijn distributies. Bijvoorbeeld  een capabilities document. 
+Een <b>dataset serie</b> is een verzameling van datasets met dezelfde productspecificaties. Productspecificaties zijn thema, resolutie en methodologie.
 <br/>
 <br/>
 Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat metadata verstrekt). 

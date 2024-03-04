@@ -1,2 +1,0 @@
-## Resource {#27124A08}
-We gebruiken dcat:Resource of resource in dit document regelmatig als een verzamelnaam voor drie veel gebruikte klasses in een <u>DCAT beschrijving</u>: dcat:catalog, dcat:dataset en dcat:dataService. Zij zijn alledrie afgeleid van de dcat:resource klasse en worden daarom soms met die naam aangeduid. Verder wordt uitgelegd bij de definite van dcat:resource dat in DCAT geen instanties van resource mogen voorkomen, alleen van deze drie subklasses. Merk op dat dcat:distributie niet is afgeleid van dcat:resource en dus niet onder deze aanduiding valt.

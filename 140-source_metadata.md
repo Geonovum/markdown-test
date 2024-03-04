@@ -1,0 +1,2 @@
+### source metadata {#0E8B43B4}
+Een verwijzing naar de originele metagegevens (conform een andere standaard) die zijn gebruikt bij het genereren van de beschrijving conform DCAT-AP-NL. Bijvoorbeeld <a href='https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search' target='_blank'>https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/ba83c30f-12f7-4582-a590-852b6d1706de?tab=general</a> 

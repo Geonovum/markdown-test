@@ -1,33 +1,36 @@
 var documentConfig =
 {
-  title: "DCAT-AP-DONL 3",
-  shortName: "DCAT-AP-DONL3",
+  title: "DCAT-AP-NL 3.0",
+  shortName: "DCAT-AP-NL30",
   pubDomain: "dcat",
   specStatus: "wv",
   specType: "st",
   license: "cc-by-nd",
   latestVersion: [
-    "https://docs.geostandaarden.nl/dcat/DCAT-AP-DONL3/"
+    "https://docs.geostandaarden.nl/dcat/DCAT-AP-NL30/"
   ],
-  publishDate: "2024-02-28",
-  publishVersion: "3.0.3",
+  publishDate: "2024-03-04",
   thisVersion: [
-    "https://dataoverheid.github.io/dcat-DCAT-AP-DONL3/"
+    "https://dataoverheid.github.io/dcat-DCAT-AP-NL30/"
   ],
-  previousPublishDate: "2023-07-01",
-  previousPublishVersion: "2.0.2",
-  prevVersion: [
-    "https://docs.geostandaarden.nl/dcat/def-st-DCAT-AP-DONL3-20230701/"
+  edDraftURI: "https://dataoverheid.github.io/dcat-DCAT-AP-NL30/",
+  authors: [
+    {
+      name: "Jan Skornsek",
+      company: "",
+      companyURL: "https://www.geonovum.nl/"
+    },
+    {
+      name: "Ine de Visser",
+      company: "Geonovum",
+      companyURL: ""
+    }
   ],
-  previousMaturity: "def",
-  github: "https://github.com/dataoverheid/dcat-DCAT-AP-DONL3/",
-  issueBase: "https://github.com/dataoverheid/dcat-DCAT-AP-DONL3/issues/",
-  edDraftURI: "https://dataoverheid.github.io/dcat-DCAT-AP-DONL3/",
   editors: [
     {
       name: "Casper le Gras",
       company: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      companyURL: "https://www.koopoverheid.nl/"
+      companyURL: ""
     },
     {
       name: "Willem ter Berg",
@@ -35,9 +38,9 @@ var documentConfig =
       companyURL: "https://www.koopoverheid.nl/"
     },
     {
-      name: "Kees Trautwein",
-      company: "Logius",
-      companyURL: "https://www.logius.nl/"
+      name: "Ine de Visser",
+      company: "",
+      companyURL: ""
     }
   ],
   localBiblio: {
@@ -46,24 +49,6 @@ var documentConfig =
       href: "https://data.overheid.nl/",
       authors: "",
       publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "CLUSTERBEGRIPPEN": {
-      title: "Clusterbegrippen Stelselcatalogus Logius",
-      href: "https://www.stelselcatalogus.nl/clusterbegrippen",
-      authors: "",
-      publisher: "Logius",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "EPSG28992": {
-      title: "EPSG:28992",
-      href: "https://epsg.io/28992",
-      authors: "",
-      publisher: "NSGI",
       editors: "",
       date: "",
       status: ""
@@ -77,17 +62,19 @@ var documentConfig =
       date: "",
       status: ""
     },
-    "DCAT_20": {
-      title: "DCAT 2.0",
+    "DCAT-2.0": {
+      title: "DCAT-2.0",
       href: "https://www.w3.org/TR/vocab-dcat-2",
-      authors: "",
-      publisher: "World Wide Web Consortium",
+      authors: [
+        "Riccardo Albertoni; David Browning; Simon Cox; Alejandra Gonzalez Beltran; Andrea Perego; Peter Winstanley"
+      ],
+      publisher: "W3C",
       editors: "",
-      date: "",
-      status: ""
+      date: "2020-02-04",
+      status: "Recommendation"
     },
-    "DCATAP_21": {
-      title: "DCAT-AP 2.1",
+    "DCAT-AP 2.1.1": {
+      title: "DCAT-AP 2.1.1",
       href: "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
       authors: "",
       publisher: "The Publications Office of the European Union",
@@ -104,47 +91,11 @@ var documentConfig =
       date: "",
       status: ""
     },
-    "DONL_ACCESSRIGHTS_CONCEPTS": {
-      title: "donl:AccessRights concepts (Github.com/dataoverheid)",
-      href: "https://github.com/dataoverheid/dcat-ap-donl/tree/main/term/access-rights",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "DONL_SUPPORTINGROLE_CONCEPTS": {
-      title: "donl:SupportingRole concepts (Github.com/dataoverheid)",
-      href: "https://github.com/dataoverheid/dcat-ap-donl/tree/main/term/supporting-roles",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
     "GEONAMES": {
       title: "GeoNames.org",
       href: "https://www.geonames.org/",
       authors: "",
       publisher: "",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "HTTPS_EN_HSTS": {
-      title: "HTTPS en HSTS",
-      href: "https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts",
-      authors: "",
-      publisher: "Forum Standaardisatie",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "IANA_MEDIATYPES": {
-      title: "IANA Mediatypes",
-      href: "https://www.iana.org/assignments/media-types/media-types.xhtml",
-      authors: "",
-      publisher: "Internet Assigned Numbers Authority",
       editors: "",
       date: "",
       status: ""
@@ -167,164 +118,11 @@ var documentConfig =
       date: "",
       status: ""
     },
-    "JURICONNECT": {
-      title: "Juriconnect",
-      href: "https://www.koopoverheid.nl/standaarden/juriconnect",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "JURICONNECT_13": {
-      title: "Juriconnect 1.3",
-      href: "https://www.juriconnect.nl/downloadreg.asp?bestand=Juriconnect%5FStandaard%5FBWB%5F1%5F3%2Epdf&type=pdf",
-      authors: "",
-      publisher: "",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "MDR_ACCESSRIGHTS": {
-      title: "mdr:AccessRights (publications.europa.eu)",
-      href: "https://publications.europa.eu/resource/authority/access-right",
-      authors: "",
-      publisher: "The Publications Office of the European Union",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "MDR_DATATHEME": {
-      title: "mdr:DataTheme (publications.europa.eu)",
-      href: "https://publications.europa.eu/resource/authority/data-theme",
-      authors: "",
-      publisher: "The Publications Office of the European Union",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "MDR_FILETYPE": {
-      title: "mdr:Filetype (publications.europa.eu)",
-      href: "https://publications.europa.eu/resource/authority/file-type",
-      authors: "",
-      publisher: "The Publications Office of the European Union",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "MDR_FREQUENCY": {
-      title: "mdr:Frequency (publications.europa.eu)",
-      href: "https://publications.europa.eu/resource/authority/frequency",
-      authors: "",
-      publisher: "The Publications Office of the European Union",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "MDR_LANGUAGE": {
-      title: "mdr:Language (publications.europa.eu)",
-      href: "https://publications.europa.eu/resource/authority/language",
-      authors: "",
-      publisher: "The Publications Office of the European Union",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_40": {
-      title: "OWMS 4.0",
-      href: "https://standaarden.overheid.nl/owms/terms",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_EPSG28992": {
-      title: "overheid:EPSG28992 (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/4.0/doc/syntax-codeerschemas/overheid.epsg28992",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_GEMEENTE": {
-      title: "overheid:Gemeente (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/terms/Gemeente",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_KONINKRIJKSDEEL": {
-      title: "overheid:Koninkrijksdeel (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/terms/Koninkrijksdeel",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_ORGANISATIE": {
-      title: "overheid:Organisatie (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/terms/Organisatie",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_POSTCODEHUISNUMMER": {
-      title: "overheid:PostcodeHuisnummer (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/4.0/doc/syntax-codeerschemas/overheid.postcodehuisnummer",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_PROVINCIE": {
-      title: "overheid:Provincie (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/terms/Provincie",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_SYNTAXCODEERSCHEMA": {
-      title: "overheid:SyntaxCodeerschema (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/4.0/doc/syntax-codeerschemas",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
     "OWMS_TAXONOMIEBELEIDSAGENDA": {
       title: "overheid:TaxonomieBeleidsagenda (standaarden.overheid.nl)",
       href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.taxonomiebeleidsagenda",
       authors: "",
       publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "OWMS_WATERSCHAP": {
-      title: "overheid:Waterschap (standaarden.overheid.nl)",
-      href: "https://standaarden.overheid.nl/owms/4.0/doc/waardelijsten/overheid.waterschap",
-      authors: "",
-      publisher: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      editors: "",
-      date: "",
-      status: ""
-    },
-    "SPDX_CHECKSUMALGORITHM": {
-      title: "spdx:ChecksumAlgorithm",
-      href: "http://spdx.org/rdf/terms#ChecksumAlgorithm",
-      authors: "",
-      publisher: "The Software Package Data Exchange (SPDX)",
       editors: "",
       date: "",
       status: ""
@@ -338,13 +136,167 @@ var documentConfig =
       date: "",
       status: ""
     },
-    "ident": {
-      title: "titel",
-      href: "https://github.com/Geonovum/dcat2-ap-nl/issues/10",
+    "DCAT-3.0": {
+      title: "DCAT-3.0",
+      href: "https://www.w3.org/TR/vocab-dcat-3/",
+      authors: [
+        "Simon Cox; Andrea Perego; Alejandra Gonzalez Beltran; Peter Winstanley; Riccardo Albertoni; David Browning"
+      ],
+      publisher: "W3C",
+      editors: "",
+      date: "",
+      status: "Candidate Recommendation"
+    },
+    "DCAT-AP-3.0": {
+      title: "DCAT-AP-3.0",
+      href: "https://semiceu.github.io//DCAT-AP/releases/3.0",
+      authors: [
+        "Bert Van Nuffelen"
+      ],
+      publisher: "",
+      editors: "",
+      date: "2024-02-12",
+      status: "Candidate Recommendation"
+    },
+    "DCAT-AP-HVD": {
+      title: "DCAT-AP for High-Value Datasets",
+      href: "https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/",
+      authors: "",
+      publisher: "European Commission",
+      editors: "",
+      date: "",
+      status: ""
+    },
+    "ODRL": {
+      title: "ODLR",
+      href: "https://www.w3.org/ns/odrl/2/",
+      authors: [
+        "POE Working Group"
+      ],
+      publisher: "W3C",
+      editors: "",
+      date: "",
+      status: ""
+    },
+    "DCAT-AP-DONL-2.0": {
+      title: "DCAT-AP-DONL 2.0",
+      href: "",
+      authors: [
+        "Jan Meijer",
+        "Huub van Oers",
+        "Kees Trautwein"
+      ],
+      publisher: "data.overheid.nl",
+      editors: [
+        "Casper le Gras",
+        "Willem ter Berg",
+        ""
+      ],
+      date: "2022-11-24",
+      status: ""
+    },
+    "RFC2119": {
+      title: "rfc2119",
+      href: "https://www.rfc-editor.org/rfc/rfc2119",
+      authors: [
+        "S. Bradner"
+      ],
+      publisher: "IETF",
+      editors: "",
+      date: "1997-03-01",
+      status: ""
+    },
+    "RFC8174": {
+      title: "rfc8174",
+      href: "https://www.rfc-editor.org/rfc/rfc5646",
+      authors: [
+        "B. Leiba"
+      ],
+      publisher: "IETF",
+      editors: "",
+      date: "2009-09-01",
+      status: ""
+    },
+    "ISO-19115": {
+      title: "ISO-19115",
+      href: "https://www.iso.org/standard/53798.html",
       authors: "",
       publisher: "",
       editors: "",
+      date: "2014-04-01",
+      status: "International Standard confirmed"
+    },
+    "OpenAPI": {
+      title: "OpenAPI",
+      href: "https://www.openapis.org/",
+      authors: [
+        "Darrell Miller; Jeremy Whitlock; Marsh Gardiner; Mike Ralphson; Ron Ratovsky; Uri Sarid; Tony Tam; Jason Harmon"
+      ],
+      publisher: "",
+      editors: "",
       date: "",
+      status: ""
+    },
+    "WFS": {
+      title: "WFS",
+      href: "http://www.opengeospatial.org/standards/wfs",
+      authors: [
+        "Panagiotis (Peter) A. Vretanos"
+      ],
+      publisher: "OGC",
+      editors: "",
+      date: "2014-07-10",
+      status: ""
+    },
+    "WMS": {
+      title: "WMS",
+      href: "http://www.opengeospatial.org/standards/wms",
+      authors: [
+        "Jeff de la Beaujardiere"
+      ],
+      publisher: "",
+      editors: "",
+      date: "2006-03-15",
+      status: "OpenGIS Implementation Standard"
+    },
+    "ISO-19128": {
+      title: "ISO-19128",
+      href: "https://www.iso.org/standard/32546.html",
+      authors: "",
+      publisher: "ISO/TC 211. ISO",
+      editors: "",
+      date: "",
+      status: "International Standard"
+    },
+    "ISO-19142": {
+      title: "ISO-19142",
+      href: "https://www.iso.org/standard/42136.html",
+      authors: "",
+      publisher: "ISO/TC 211",
+      editors: "",
+      date: "",
+      status: "International Standard"
+    },
+    "SPARQL11-SERVICE-DESCRIPTION": {
+      title: "SPARQL Service Description",
+      href: "https://www.w3.org/TR/sparql11-service-description/",
+      authors: [
+        "Gregory Williams"
+      ],
+      publisher: "W3C",
+      editors: "",
+      date: "2013-03-21",
+      status: ""
+    },
+    "OpenSearch": {
+      title: "OpenSearch",
+      href: "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md",
+      authors: [
+        "DeWitt Clinton"
+      ],
+      publisher: "OpenSearch",
+      editors: "",
+      date: "2018-04-17",
       status: ""
     }
   }
