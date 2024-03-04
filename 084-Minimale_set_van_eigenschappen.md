@@ -1,5 +1,5 @@
 #### Minimale set van eigenschappen {#1FE21067}
-Onderstaand voorbeeld beschrijft een <span style='background-color: cyan;'>dcat:Distribution </span>met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een <span style='background-color: cyan;'>dcat:Distribution</span>.
+Onderstaand voorbeeld beschrijft een [M&gt;dcat:Distribution &lt;M]met enkel de verplichte eigenschappen. Dit is de meest minimale representatie van een [M&gt;dcat:Distribution&lt;M].
 <br/>
 <br/>
 Voorbeeld 4: Minimale set van eigenschappen

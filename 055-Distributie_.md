@@ -1,7 +1,7 @@
 ## Distributie  {#73DFC2AC}
 Een distributie beschrijft hoe een (deel van) een dataset te verkrijgen is. Een distributie levert rechtstreeks een dataset in een specifiek formaat op, Verschillende distributies van dezelfde dataset verschillen van elkaar in o.a. taal, formaat, data-schema's en nauwkeurigheid (resolutie).
 De aanbieder van een dataset kan distributies aanbieden in meerdere verschillende formaten en/of samenstellingen die zijn afgestemd op de behoeften van afnemers. Deze worden elk als afzonderlijke distributie beschreven en gerelateerd aan de dataset.
-Als een dataset (ook) wordt aangeboden in de vorm van een dataservice of API kunnen hierover aanvullende gegevens worden opgenomen in een <span style='background-color: cyan;'>dcat:DataService</span><span style='background-color: cyan;'>. </span>Deze kan worden gerelateerd aan de bijbehorende distributie.
+Als een dataset (ook) wordt aangeboden in de vorm van een dataservice of API kunnen hierover aanvullende gegevens worden opgenomen in een [M&gt;dcat:DataService. &lt;M]Deze kan worden gerelateerd aan de bijbehorende distributie.
 <section data-include-format='markdown' data-include='056-access_service.md'></section>
 <section data-include-format='markdown' data-include='058-access_URL.md'></section>
 <section data-include-format='markdown' data-include='059-applicable_legislation.md'></section>

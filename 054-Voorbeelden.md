@@ -2,5 +2,77 @@
 Voorbeeld 1 
 <br/>
 <br/>
-<aside class='example'><p id='475C003C'><span style='background-color: cyan;'>prefix exampleMS: &lt;https://data.exampleMS.gov/id/dataset/&gt;</span><p id='2F81E14E'><span style='background-color: cyan;'>prefix adms: &lt;http://www.w3.org/ns/adms#&gt;</span><p id='24AD2935'><span style='background-color: cyan;'>prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt;</span><p id='22128EC1'><span style='background-color: cyan;'>prefix dcatap: &lt;http://data.europa.eu/r5r/&gt;</span><p id='3CFB33F1'><span style='background-color: cyan;'>prefix dct: &lt;http://purl.org/dc/terms/&gt;</span><p id='0C047660'><span style='background-color: cyan;'>prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;</span><p id='223E01D7'><span style='background-color: cyan;'>prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;</span><p id='3FD95B17'><span style='background-color: cyan;'>prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt;</span><p class='space-after' id='10884DDC'><span style='background-color: cyan;'>prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span><p id='53907098'><span style='background-color: cyan;'>exampleMS:HVD-reporting-2023  a dcat:Catalogue;</span><p id='673C4F7B'><span style='background-color: cyan;'>  dct:title "MS HVD Reporting 2023"@en;</span><p id='0FC220D7'><span style='background-color: cyan;'>  dct:description "All information to provide the HVD conformance assessment for MS"@en;</span><p id='257294F3'><span style='background-color: cyan;'>  dcat:dataset exampleMS:1T2p3o4B ;</span><p id='37C8F4A3'><span style='background-color: cyan;'>  dcat:service exampleMS:EAMS-APIplatform.</span><p class='space-after' id='335DDA32'><span style='background-color: cyan;'>  </span><p id='3AAA5F78'><span style='background-color: cyan;'>exampleMS:1T2p3o4B a dcat:Dataset;</span><p id='351D4541'><span style='background-color: cyan;'>  dct:title "The population of bees"@en;</span><p id='3EF68D1B'><span style='background-color: cyan;'>  dct:description "This dataset provides the population of bees based on a yearly inquiry held among beekeepers and farmers in spring."@en;</span><p id='13900B05'><span style='background-color: cyan;'>  dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;, &lt;http://data.europa.eu/eli/dir/2007/2/2019-06-26&gt; ;</span><p id='180379DD'><span style='background-color: cyan;'>  dct:publisher _:EA-MS;</span><p id='5866CBDB'><span style='background-color: cyan;'>  dct:identifier "https://data.exampleMS.gov/id/dataset/1T2p3o4B";</span><p id='7AA76FB7'><span style='background-color: cyan;'>  adms:identifier [</span><p id='0475B38C'><span style='background-color: cyan;'>        dct:creator _:EA-MS;</span><p id='3275C346'><span style='background-color: cyan;'>        skos:notation "https://data.exampleMS.gov/id/dataset/1T2p3o4B"</span><p id='6AD11DDB'><span style='background-color: cyan;'>        ],</span><p id='73735B0F'><span style='background-color: cyan;'>        [</span><p id='2B793C12'><span style='background-color: cyan;'>        dct:creator &lt;https://dataportal.exampleMS.gov&gt;;</span><p id='65024E7C'><span style='background-color: cyan;'>        skos:notation "https://dataportal.exampleMS.gov/dataset/Thepopulationofbees";</span><p id='2489E3FC'><span style='background-color: cyan;'>        ];</span><p id='58FBF477'><span style='background-color: cyan;'>   dct:accrualPeriodicity &lt;http://publications.europa.eu/resource/authority/frequency/BIENNIAL&gt;;</span><p id='54DE62BB'><span style='background-color: cyan;'>   dct:conformsTo &lt;https://orgea.exampleMS.gov/applicationprofile/populationOfInsects&gt;;</span><p class='space-after' id='727E702E'><span style='background-color: cyan;'>   dcat:distribution exampleMS:1T2p3o4B-dist-SHP.</span><p id='61D7F254'><span style='background-color: cyan;'>exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;</span><p id='347867C5'><span style='background-color: cyan;'>   dcat:accessURL &lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt; ;</span><p id='0A31AF96'><span style='background-color: cyan;'>   dct:conformsTo &lt;https://orgea.exampleMS.gov/dataset/1T2p3o4B/schema/shp&gt;;</span><p id='2F29B7C1'><span style='background-color: cyan;'>   dcat:spatialResolutionInMeters "25000"^^xsd:decimal;</span><p id='6E7B2BAC'><span style='background-color: cyan;'>   dct:format &lt;http://publications.europa.eu/resource/authority/file-type/SHP&gt; ;</span><p id='0647470B'><span style='background-color: cyan;'>   dct:license &lt;https://data.exampleMS.gov/resource/FreeAndOpen&gt;;</span><p class='space-after' id='777D37A7'><span style='background-color: cyan;'>   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;.</span><p id='64B46909'><span style='background-color: cyan;'>exampleMS:EAMS-APIplatform a dcat:DataService;</span><p id='782E6D9C'><span style='background-color: cyan;'>   dct:title "EA API platform"@en;</span><p id='282FF6BB'><span style='background-color: cyan;'>   dct:description "The EA API platform provides a uniform access to the real-time data collected by EA"@en;</span><p id='53191D8D'><span style='background-color: cyan;'>   dcat:endpointURL &lt;https://orgea.exampleMS.gov/api/v2/&gt; ;</span><p id='058F9E37'><span style='background-color: cyan;'>   dcat:endpointDescription &lt;https://orgea.exampleMS.gov/api/openAPI/index.html&gt; ;</span><p id='71B55E59'><span style='background-color: cyan;'>   foaf:page &lt;https://orgea.exampleMS.gov/api/sla.html&gt; ;</span><p id='55F16947'><span style='background-color: cyan;'>   dct:license &lt; https://data.exampleMS.gov/resource/FreeAndOpen &gt; ;</span><p id='2960A6D4'><span style='background-color: cyan;'>   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt; ;</span><p id='7BECEB47'><span style='background-color: cyan;'>   dcat:contactPoint _:EAMS-APIplatform-contactpoint ;</span><p class='space-after' id='4B0B01F2'><span style='background-color: cyan;'>   dcat:servesDataset exampleMS:1T2p3o4B. </span><p id='121A3F7E'><span style='background-color: cyan;'>_:EAMS-APIplatform-contactpoint a vcard:Kind;</span><p class='space-after' id='140289A3'><span style='background-color: cyan;'>   vcard:hasURL &lt;https://eams.jira.net/servicedesk&gt; .</span><p id='48435CF6'><span style='background-color: cyan;'>_:EA-MS a foaf:Agent;</span><p class='space-after' id='5B521472'><span style='background-color: cyan;'>    foaf:name "MS Environmental Agency".</span><p id='1EABD607'><span style='background-color: cyan;'>&lt;https://data.exampleMS.gov/resource/FreeAndOpen&gt; a dct:LicenseDocument ;</span><p class='space-after' id='30D8AE55'><span style='background-color: cyan;'>   skos:exactMatch &lt;http://publications.europa.eu/resource/authority/licence/CC0&gt;.</span></aside>
+<aside class='example'><pre class="text">[M&gt;prefix exampleMS: &lt;https://data.exampleMS.gov/id/dataset/&gt;
+prefix adms: &lt;http://www.w3.org/ns/adms#&gt;
+prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+prefix dcatap: &lt;http://data.europa.eu/r5r/&gt;
+prefix dct: &lt;http://purl.org/dc/terms/&gt;
+prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt;
+prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+</pre>
 
+<pre class="text">exampleMS:HVD-reporting-2023  a dcat:Catalogue;
+  dct:title "MS HVD Reporting 2023"@en;
+  dct:description "All information to provide the HVD conformance assessment for MS"@en;
+  dcat:dataset exampleMS:1T2p3o4B ;
+  dcat:service exampleMS:EAMS-APIplatform.
+  
+</pre>
+
+<pre class="text">exampleMS:1T2p3o4B a dcat:Dataset;
+  dct:title "The population of bees"@en;
+  dct:description "This dataset provides the population of bees based on a yearly inquiry held among beekeepers and farmers in spring."@en;
+  dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;, &lt;http://data.europa.eu/eli/dir/2007/2/2019-06-26&gt; ;
+  dct:publisher _:EA-MS;
+  dct:identifier "https://data.exampleMS.gov/id/dataset/1T2p3o4B";
+  adms:identifier [
+        dct:creator _:EA-MS;
+        skos:notation "https://data.exampleMS.gov/id/dataset/1T2p3o4B"
+        ],
+        [
+        dct:creator &lt;https://dataportal.exampleMS.gov&gt;;
+        skos:notation "https://dataportal.exampleMS.gov/dataset/Thepopulationofbees";
+        ];
+   dct:accrualPeriodicity &lt;http://publications.europa.eu/resource/authority/frequency/BIENNIAL&gt;;
+   dct:conformsTo &lt;https://orgea.exampleMS.gov/applicationprofile/populationOfInsects&gt;;
+   dcat:distribution exampleMS:1T2p3o4B-dist-SHP.
+</pre>
+
+<pre class="text">exampleMS:1T2p3o4B-dist-SHP a dcat:Distribution;
+   dcat:accessURL &lt;https://orgea.exampleMS.gov/files/1T2p3o4B.shp&gt; ;
+   dct:conformsTo &lt;https://orgea.exampleMS.gov/dataset/1T2p3o4B/schema/shp&gt;;
+   dcat:spatialResolutionInMeters "25000"^^xsd:decimal;
+   dct:format &lt;http://publications.europa.eu/resource/authority/file-type/SHP&gt; ;
+   dct:license &lt;https://data.exampleMS.gov/resource/FreeAndOpen&gt;;
+   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt;.
+</pre>
+
+<pre class="text">exampleMS:EAMS-APIplatform a dcat:DataService;
+   dct:title "EA API platform"@en;
+   dct:description "The EA API platform provides a uniform access to the real-time data collected by EA"@en;
+   dcat:endpointURL &lt;https://orgea.exampleMS.gov/api/v2/&gt; ;
+   dcat:endpointDescription &lt;https://orgea.exampleMS.gov/api/openAPI/index.html&gt; ;
+   foaf:page &lt;https://orgea.exampleMS.gov/api/sla.html&gt; ;
+   dct:license &lt; https://data.exampleMS.gov/resource/FreeAndOpen &gt; ;
+   dcatap:applicableLegislation &lt;http://data.europa.eu/eli/reg_impl/2023/138/oj&gt; ;
+   dcat:contactPoint _:EAMS-APIplatform-contactpoint ;
+   dcat:servesDataset exampleMS:1T2p3o4B. 
+</pre>
+
+<pre class="text">_:EAMS-APIplatform-contactpoint a vcard:Kind;
+   vcard:hasURL &lt;https://eams.jira.net/servicedesk&gt; .
+</pre>
+
+<pre class="text">_:EA-MS a foaf:Agent;
+    foaf:name "MS Environmental Agency".
+</pre>
+
+<pre class="text">&lt;https://data.exampleMS.gov/resource/FreeAndOpen&gt; a dct:LicenseDocument ;
+   skos:exactMatch &lt;http://publications.europa.eu/resource/authority/licence/CC0&gt;.
+</pre>
+
+</aside>
+
+&lt;M]
