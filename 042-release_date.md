@@ -1,5 +1,0 @@
-### release date {#30D90039}
-De datum van formele uitgifte (bijvoorbeeld publicatie) van de dataset.
-<br/>
-<br/>
-Gebruik altijd een datum en tijd conform de  notatie
