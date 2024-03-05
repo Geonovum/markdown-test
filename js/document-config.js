@@ -17,20 +17,20 @@ var documentConfig =
   authors: [
     {
       name: "Jan Skornsek",
-      company: "",
+      company: "Geonovum",
       companyURL: "https://www.geonovum.nl/"
     },
     {
       name: "Ine de Visser",
       company: "Geonovum",
-      companyURL: ""
+      companyURL: "https://www.geonovum.nl/"
     }
   ],
   editors: [
     {
       name: "Casper le Gras",
       company: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-      companyURL: ""
+      companyURL: "https://www.koopoverheid.nl/"
     },
     {
       name: "Willem ter Berg",
@@ -39,8 +39,8 @@ var documentConfig =
     },
     {
       name: "Ine de Visser",
-      company: "",
-      companyURL: ""
+      company: "Geonovum",
+      companyURL: "https://www.geonovum.nl/"
     }
   ],
   localBiblio: {
