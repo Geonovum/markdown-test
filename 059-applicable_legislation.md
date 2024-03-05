@@ -1,5 +1,5 @@
 ### applicable legislation {#6F468E83}
-Deze eigenschap bevat de wetgeving die de creatie of het beheer van de dataset verplicht stelt. 
+Deze eigenschap bevat de wetgeving die de creatie of het beheer van de dataset verplicht stelt.
 Er kunnen meerdere wetgevingen op de distributie van toepassing zijn. Denk aan HVD, INSPIRE, kaderrichtlijn water etc.
 <br/>
 <br/>

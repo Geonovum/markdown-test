@@ -9,7 +9,7 @@ var documentConfig =
   latestVersion: [
     "https://docs.geostandaarden.nl/dcat/DCAT-AP-NL30/"
   ],
-  publishDate: "2024-03-04",
+  publishDate: "2024-03-05",
   thisVersion: [
     "https://dataoverheid.github.io/dcat-DCAT-AP-NL30/"
   ],
@@ -73,7 +73,7 @@ var documentConfig =
       date: "2020-02-04",
       status: "Recommendation"
     },
-    "DCAT-AP 2.1.1": {
+    "DCAT-AP-2.1.1": {
       title: "DCAT-AP 2.1.1",
       href: "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/210",
       authors: "",

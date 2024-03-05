@@ -16,13 +16,13 @@ Een <b>dataset</b> is een zinvolle verzameling van samenhangende gegevens, die b
 Een dataset is de weerslag van een conceptuele entiteit welke de collectie is van één of meerdere distributies. Elke <b>distributie</b> is de werkelijke data van de dataset in een bepaald formaat of een bepaalde aanbiedingsvorm.
 <br/>
 <br/>
-Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>. 
+Services die toegang geven tot een of meer datasets of processing functies, zijn een <b>dataservice</b>.
 <br/>
 <br/>
 Een <b>dataset serie</b> is een verzameling van datasets met dezelfde productspecificaties. Productspecificaties zijn thema, resolutie en methodologie.
 <br/>
 <br/>
-Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat metadata verstrekt). 
+Een<b> aanbieder</b> is een gegevensaanbieder (bijvoorbeeld een dataportaal dat metadata verstrekt).
 <br/>
 <br/>
 Een <b>ontvanger</b> is een gebruiker van gegevens (bijvoorbeeld een toepassing die metadata van een dataportaal verwerkt).

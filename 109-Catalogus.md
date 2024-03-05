@@ -1,0 +1,22 @@
+## Catalogus {#62176E85}
+Een catalogus of repository waarin de beschreven datasets of dataservices worden gehost.
+<section data-include-format='markdown' data-include='110-applicable_legislation.md'></section>
+<section data-include-format='markdown' data-include='111-catalogue.md'></section>
+<section data-include-format='markdown' data-include='112-contact_point.md'></section>
+<section data-include-format='markdown' data-include='113-creator.md'></section>
+<section data-include-format='markdown' data-include='114-dataset.md'></section>
+<section data-include-format='markdown' data-include='115-description.md'></section>
+<section data-include-format='markdown' data-include='116-geographical_coverage.md'></section>
+<section data-include-format='markdown' data-include='117-has_part.md'></section>
+<section data-include-format='markdown' data-include='118-homepage.md'></section>
+<section data-include-format='markdown' data-include='119-language.md'></section>
+<section data-include-format='markdown' data-include='120-licence.md'></section>
+<section data-include-format='markdown' data-include='121-modification_date.md'></section>
+<section data-include-format='markdown' data-include='122-publisher.md'></section>
+<section data-include-format='markdown' data-include='123-record.md'></section>
+<section data-include-format='markdown' data-include='124-release_date.md'></section>
+<section data-include-format='markdown' data-include='125-rights.md'></section>
+<section data-include-format='markdown' data-include='126-service.md'></section>
+<section data-include-format='markdown' data-include='127-temporal_coverage.md'></section>
+<section data-include-format='markdown' data-include='128-themes.md'></section>
+<section data-include-format='markdown' data-include='129-title.md'></section>
