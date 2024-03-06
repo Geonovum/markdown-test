@@ -83,13 +83,13 @@ var organisationConfig =
   nl_organisationStylesURL: "https://tools.geostandaarden.nl/publication/domain/dcat/",
   logos: [
     {
-      src: "https://tools.geostandaarden.nl/publication/domain/dcat/dcat.svg",
+      src: "https://tools.geostandaarden.nl/publication/domain/dcat/geonovum.svg",
       alt: "Dataregister van de Nederlandse overheid",
       id: "dataoverheid",
-      height: "29",
-      width: "192",
-      url: "https://data.overheid.nl/",
-      ico: "https://tools.geostandaarden.nl/publication/domain/dcat/dcat.ico"
+      height: "67",
+      width: "132",
+      url: "https://www.geonovum.nl/geo-standaarden",
+      ico: "https://tools.geostandaarden.nl/publication/domain/dcat/Geonovum.ico"
     }
   ],
   useLogo: true,
