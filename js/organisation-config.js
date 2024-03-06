@@ -1,7 +1,7 @@
 var organisationConfig =
 {
-  nl_organisationName: "Kennis- en exploitatiecentrum voor Officiële Overheidspublicaties",
-  nl_organisationPublishURL: "https://data.overheid.nl/",
+  nl_organisationName: "Geonovum",
+  nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
   postProcess: [
     window.respecMermaid.createFigures
   ],
