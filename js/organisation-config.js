@@ -65,27 +65,27 @@ var organisationConfig =
       name: "Creative Commons 0 Public Domain Dedication",
       short: "CC0",
       url: "https://creativecommons.org/publicdomain/zero/1.0/",
-      image: "https://tools.geostandaarden.nl/publication/organisation/dataoverheid/cc-zero.svg"
+      image: "https://tools.geostandaarden.nl/publication/organisation/geonovum/cc-zero.svg"
     },
     "cc-by": {
       name: "Creative Commons Attribution 4.0 International Public License",
       short: "CC-BY",
       url: "https://creativecommons.org/licenses/by/4.0/legalcode",
-      image: "https://tools.geostandaarden.nl/publication/organisation/dataoverheid/cc-by.svg"
+      image: "https://tools.geostandaarden.nl/publication/organisation/geonovum/cc-by.svg"
     },
     "cc-by-nd": {
       name: "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
       short: "CC-BY-ND",
       url: "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
-      image: "https://tools.geostandaarden.nl/publication/organisation/dataoverheid/cc-by-nd.svg"
+      image: "https://tools.geostandaarden.nl/publication/organisation/geonovum/cc-by-nd.svg"
     }
   },
   nl_organisationStylesURL: "https://tools.geostandaarden.nl/publication/domain/dcat/",
   logos: [
     {
       src: "https://tools.geostandaarden.nl/publication/domain/dcat/geonovum.svg",
-      alt: "Dataregister van de Nederlandse overheid",
-      id: "dataoverheid",
+      alt: "Geonovum",
+      id: "geonovum",
       height: "67",
       width: "132",
       url: "https://www.geonovum.nl/geo-standaarden",
