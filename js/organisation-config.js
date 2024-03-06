@@ -83,7 +83,7 @@ var organisationConfig =
   nl_organisationStylesURL: "https://tools.geostandaarden.nl/publication/domain/dcat/",
   logos: [
     {
-      src: "https://tools.geostandaarden.nl/publication/domain/dcat/geonovum.svg",
+      src: "https://tools.geostandaarden.nl/publication/domain/dcat/Geonovum.svg",
       alt: "Geonovum",
       id: "geonovum",
       height: "67",
