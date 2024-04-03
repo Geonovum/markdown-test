@@ -10,10 +10,6 @@ var documentConfig =
     "https://docs.geostandaarden.nl/dcat/DCAT-AP-NL30/"
   ],
   publishDate: "2024-03-05",
-  thisVersion: [
-    "https://dataoverheid.github.io/dcat-DCAT-AP-NL30/"
-  ],
-  edDraftURI: "https://dataoverheid.github.io/dcat-DCAT-AP-NL30/",
   authors: [
     {
       name: "Jan Skornsek",
