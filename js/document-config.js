@@ -6,9 +6,13 @@ var documentConfig =
   specStatus: "wv",
   specType: "st",
   license: "cc-by-nd",
-  latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-  thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+  latestVersion: [
+    "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/"
+  ],
+  thisVersion: [
+    "https://geonovum.github.io/DCAT-AP-NL30/"
+  ],
+  edDraftURI: "https://geonovum.github.io/DCAT-AP-NL30/",
   publishDate: "2024-03-05",
   authors: [
     {
