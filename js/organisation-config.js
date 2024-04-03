@@ -31,6 +31,7 @@ var organisationConfig =
     vv: "#045D9F",
     wv: "#FF0000"
   },
+  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
   specTypeText: {
     en: {
       geen: "None",
