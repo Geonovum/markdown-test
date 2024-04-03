@@ -6,9 +6,9 @@ var documentConfig =
   specStatus: "wv",
   specType: "st",
   license: "cc-by-nd",
-  latestVersion: [
-    "https://docs.geostandaarden.nl/dcat/DCAT-AP-NL30/"
-  ],
+  latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
+  thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
   publishDate: "2024-03-05",
   authors: [
     {
